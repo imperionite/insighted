@@ -1,5 +1,9 @@
 # InsightEd
 
+Submission for MS 2 and Homework #5: Mini Task # 3
+
+
+
 
 ## Focus Question
 
@@ -21,14 +25,19 @@ The increasing adoption of online education has opened new opportunities for lea
 
 The primary objectives of this study are:
 
--   To identify key predictors of student success in online education.
--   To explore the role of adaptability, access to technology, and motivation in shaping learning outcomes.
--   To apply statistical analysis and data visualization techniques to uncover patterns and relationships within the dataset.
--   To provide insights that can help scholarship-granting organizations make informed decisions.
+- To identify key predictors of online learning success.
+
+- To perform feature engineering on relevant variables to enhance their predictive power.
+
+- To conduct exploratory data analysis (EDA) to understand variable distributions and relationships.
+
+- To test specific hypotheses related to student performance and demographic factors.
+
+- To implement a simplified logistic regression model for predicting online learning success.
 
 ### Scope and Delimitation
 
-This study focuses on a dataset of 256 students, including demographic, educational, and technological factors. Key variables include education level, financial condition, internet type, and adaptivity level. The analysis will prioritize the most influential features and their impact on student success in online education. This is a cross-sectional study.
+This study focuses on a dataset of 1205 observations (students), including demographic, educational, and technological factors. Key variables include education level, financial condition, internet type, and adaptivity level. The analysis will prioritize the most influential features and their impact on student success in online education. This is a cross-sectional study.
 
 The study is limited by the dataset’s size and the specific variables collected. It does not account for external factors such as psychological well-being, family support, or teaching quality, which may also influence success.
 
@@ -58,7 +67,7 @@ EDA will be conducted to understand the distribution, patterns, and relationship
 -   **Correlation Analysis:** Measuring associations between numeric variables like age and adaptivity level.
 
 ### Logistic Regression
-- A binary variable, `high_adaptivity`, will be created where "High" adaptivity is 1 and "Moderate" or "Low" adaptivity is 0. This variable represents "online learning success" as defined in this study.
+- A binary variable, `high_adaptivity`, will be created where "High" and "Moderate" adaptivity are 1 and "Low" adaptivity is 0. This variable represents "online learning success" as defined in this study.
 
 - The `glm()` function in R will be used with the `binomial` family to model the probability of high adaptivity based on the engineered variables: digital literacy, socio-economic status, and access score.
 
@@ -68,7 +77,7 @@ EDA will be conducted to understand the distribution, patterns, and relationship
 
 
         ```R
-        data$high_adaptivity <- ifelse(data$adaptivity_level == "High", 1, 0)
+        data$high_adaptivity <- ifelse(data$adaptivity_level %in% c("Moderate", "High"), 1, 0)
         data$high_adaptivity <- as.factor(data$high_adaptivity)
         model <- glm(high_adaptivity ~ digital_literacy + socio_economic_status + access_score, data = data, family = binomial)
         summary(model)
@@ -80,7 +89,7 @@ EDA will be conducted to understand the distribution, patterns, and relationship
 
 #### Data Collection
 
-The study utilizes a cleaned dataset containing 256 observations and 15 variables, including demographic, educational, and technological attributes.
+The study utilizes a cleaned dataset containing 1205 observations and 15 variables, including demographic, educational, and technological attributes.
 
 #### Data Analysis
 
@@ -95,12 +104,35 @@ The study utilizes a cleaned dataset containing 256 observations and 15 variable
 
 R programming in Jupyter Lab will be used for data analysis and visualization, ensuring reproducibility and clarity of results.
 
-### Essential Variable Focus
+### Essential Variables Focus
 
--   **Success (binary):** Based on adaptivity level (High vs. Not High).
--   **Digital Literacy (categorical):** Engineered from device and IT student.
--   **Socio-Economic Status (categorical):** Engineered from financial condition and education level.
--   **Access Score (numerical):** Engineered from location, load shedding, internet type, and network type.
+The dataset consists of 1205 observations and 15 variables, including demographic, technological, and behavioral factors. Key variables include:
+
+Gender: Boy, Girl
+
+Education Level: College, School, University
+
+Institution Type: Government, Non-Government
+
+Financial Condition: Mid, Poor, Rich
+
+Internet Type: Mobile Data, Wifi
+
+Network Type: 2G, 3G, 4G
+
+Class Duration: 0, 1-3, 3-6 hours
+
+Device Used: Computer, Mobile, Tablet
+
+Adaptivity Level: High, Low, Moderate
+
+Age: Numeric variable representing student age
+
+### Engineered Variables
+-   **Success (binary):** Based on adaptivity level (High vs. Not High). This variable represents "online learning success" for our logistic regression model.
+-   **Digital Literacy (categorical):** Engineered from device and IT student. o capture a student's level of digital literacy based on device usage and IT student status.
+-   **Socio-Economic Status (categorical):** Engineered from financial condition and education level. To categorize students based on their financial condition and education level.
+-   **Access Score (numerical):** Engineered from location, load shedding, internet type, and network type. To quantify a student's access to essential resources for online learning.
 
 ### Environment Setup
 

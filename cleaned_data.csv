@@ -27,231 +27,1180 @@
 "26","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
 "27","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
 "28","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",28
-"29","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",8
-"30","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
-"31","Boy","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
-"32","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
-"33","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Mobile","Moderate",23
-"34","Girl","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
-"35","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","High",8
-"36","Girl","University","Government","No","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",28
-"37","Girl","School","Government","No","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","Low",13
-"38","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
-"39","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Moderate",23
-"40","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Computer","Low",23
-"41","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
-"42","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
-"43","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
-"44","Boy","University","Government","Yes","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",28
-"45","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",3
-"46","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
-"47","Girl","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
-"48","Girl","School","Non Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",13
-"49","Boy","School","Government","No","No","Low","Poor","Mobile Data","3G","0","No","Mobile","Low",18
-"50","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",23
-"51","Boy","College","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
-"52","Girl","College","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",18
-"53","Boy","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
-"54","Boy","University","Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",28
-"55","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",8
-"56","Girl","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",13
-"57","Boy","College","Government","No","No","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Low",23
-"58","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
-"59","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
-"60","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","2G","1-3","No","Mobile","Low",8
-"61","Girl","College","Government","No","No","High","Mid","Mobile Data","4G","0","No","Mobile","Low",23
-"62","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","3-6","No","Mobile","Moderate",13
-"63","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",13
-"64","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",13
-"65","Boy","School","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Moderate",13
-"66","Boy","University","Government","No","No","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",28
-"67","Boy","University","Non Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
-"68","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
-"69","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Computer","Moderate",23
-"70","Boy","University","Non Government","Yes","Yes","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Low",23
-"71","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",18
-"72","Girl","School","Government","No","No","High","Poor","Mobile Data","2G","1-3","No","Mobile","Low",13
-"73","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Moderate",23
-"74","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",13
-"75","Girl","College","Non Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",18
-"76","Girl","School","Non Government","No","Yes","Low","Poor","Wifi","4G","1-3","No","Mobile","Moderate",3
-"77","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",13
-"78","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","High",23
-"79","Boy","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",13
-"80","Boy","University","Non Government","Yes","Yes","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
-"81","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
-"82","Boy","University","Government","Yes","Yes","Low","Mid","Wifi","4G","0","No","Computer","Low",28
-"83","Boy","University","Non Government","Yes","Yes","High","Mid","Wifi","4G","3-6","Yes","Computer","Low",23
-"84","Boy","College","Government","No","No","High","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",18
-"85","Girl","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
-"86","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","3-6","No","Computer","Moderate",18
-"87","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
-"88","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Computer","Moderate",18
-"89","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
-"90","Boy","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","Yes","Computer","High",23
-"91","Boy","University","Government","Yes","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",23
-"92","Boy","University","Non Government","Yes","No","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","High",23
-"93","Boy","College","Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",18
-"94","Boy","University","Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Low",23
-"95","Girl","University","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
-"96","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
-"97","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",18
-"98","Boy","University","Government","No","No","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",23
-"99","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",23
-"100","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","3G","3-6","No","Computer","Moderate",23
-"101","Girl","University","Non Government","No","Yes","High","Poor","Wifi","4G","3-6","No","Mobile","Low",23
-"102","Girl","University","Government","No","No","Low","Mid","Mobile Data","2G","1-3","No","Mobile","Low",23
-"103","Boy","College","Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
-"104","Boy","School","Non Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","No","Mobile","High",13
-"105","Boy","School","Non Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Moderate",8
-"106","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Low",23
-"107","Boy","University","Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Computer","Low",23
-"108","Boy","University","Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","No","Computer","High",28
-"109","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","1-3","Yes","Computer","Moderate",23
-"110","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Low",23
-"111","Boy","University","Government","No","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",18
-"112","Boy","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",8
-"113","Girl","College","Government","No","No","High","Poor","Mobile Data","4G","0","No","Mobile","Low",18
-"114","Boy","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","Yes","Mobile","Low",18
-"115","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","Yes","Computer","Moderate",23
-"116","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",28
-"117","Boy","School","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
-"118","Girl","School","Non Government","No","Yes","Low","Poor","Wifi","3G","1-3","No","Mobile","Moderate",13
-"119","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",3
-"120","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",3
-"121","Girl","University","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","Moderate",23
-"122","Boy","School","Non Government","Yes","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",13
-"123","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","High",13
-"124","Girl","University","Non Government","Yes","Yes","High","Mid","Wifi","3G","3-6","Yes","Mobile","Low",23
-"125","Girl","School","Government","No","No","Low","Rich","Mobile Data","4G","1-3","No","Mobile","High",18
-"126","Girl","College","Government","No","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
-"127","Boy","School","Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","No","Mobile","Moderate",18
-"128","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","3G","3-6","No","Mobile","Low",23
-"129","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","3-6","No","Mobile","Moderate",13
-"130","Girl","University","Non Government","No","No","Low","Mid","Wifi","4G","0","No","Mobile","Low",23
-"131","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",18
-"132","Boy","University","Non Government","Yes","No","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
-"133","Boy","University","Non Government","Yes","No","High","Poor","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
-"134","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",28
-"135","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","2G","3-6","No","Mobile","Moderate",23
-"136","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",23
-"137","Girl","School","Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Moderate",13
-"138","Girl","College","Non Government","No","No","High","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
-"139","Boy","University","Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
-"140","Boy","College","Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
-"141","Boy","University","Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","High",28
-"142","Boy","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","3-6","Yes","Mobile","Low",23
-"143","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Low",18
-"144","Boy","University","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","Yes","Mobile","High",23
-"145","Boy","University","Non Government","No","No","Low","Poor","Mobile Data","4G","1-3","Yes","Mobile","Low",23
-"146","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
-"147","Girl","University","Non Government","Yes","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",23
-"148","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","4G","1-3","Yes","Computer","High",23
-"149","Boy","University","Non Government","No","No","Low","Mid","Mobile Data","4G","1-3","Yes","Mobile","Moderate",23
-"150","Boy","College","Government","Yes","No","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",23
-"151","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",13
-"152","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","Yes","Mobile","Moderate",23
-"153","Girl","School","Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","Yes","Mobile","Low",3
-"154","Boy","University","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Tab","High",23
-"155","Girl","College","Government","No","No","High","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",18
-"156","Boy","University","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","High",23
-"157","Boy","University","Government","No","No","High","Poor","Mobile Data","4G","3-6","No","Mobile","Moderate",23
-"158","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Low",18
-"159","Boy","College","Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Tab","Moderate",18
-"160","Boy","School","Non Government","No","Yes","Low","Rich","Mobile Data","3G","1-3","No","Mobile","Moderate",13
-"161","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",13
-"162","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",23
-"163","Boy","University","Non Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
-"164","Boy","University","Government","Yes","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",23
-"165","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",13
-"166","Girl","College","Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",23
-"167","Boy","University","Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","Low",23
-"168","Boy","University","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
-"169","Girl","University","Government","No","No","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",28
-"170","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
-"171","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Computer","Low",23
-"172","Boy","University","Non Government","Yes","No","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
-"173","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","3-6","No","Mobile","Moderate",13
-"174","Boy","College","Government","Yes","No","Low","Rich","Wifi","4G","0","No","Mobile","Low",18
-"175","Boy","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",18
-"176","Girl","College","Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
-"177","Girl","College","Government","No","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","Moderate",18
-"178","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Moderate",28
-"179","Boy","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
-"180","Boy","University","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Moderate",23
-"181","Boy","College","Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Moderate",18
-"182","Boy","University","Non Government","Yes","Yes","High","Poor","Mobile Data","3G","1-3","Yes","Computer","Moderate",28
-"183","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","High",18
-"184","Boy","University","Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",23
-"185","Boy","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","3-6","No","Mobile","Low",23
-"186","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",28
-"187","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Computer","High",23
-"188","Boy","College","Government","No","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
-"189","Boy","University","Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Computer","Moderate",18
-"190","Boy","School","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Computer","Low",13
-"191","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
-"192","Boy","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
-"193","Boy","College","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
-"194","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","3-6","No","Mobile","Moderate",13
-"195","Girl","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","High",23
-"196","Boy","School","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",3
-"197","Girl","University","Government","No","Yes","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",23
-"198","Girl","School","Non Government","No","Yes","Low","Rich","Wifi","3G","1-3","No","Mobile","High",13
-"199","Boy","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","1-3","Yes","Computer","Moderate",23
-"200","Boy","School","Government","No","No","Low","Poor","Mobile Data","3G","0","No","Mobile","Low",13
-"201","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Low",23
-"202","Boy","University","Non Government","No","No","Low","Mid","Wifi","4G","0","No","Mobile","Moderate",23
-"203","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",13
-"204","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Moderate",28
-"205","Boy","University","Government","No","No","High","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
-"206","Boy","College","Government","No","Yes","High","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
-"207","Boy","School","Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
-"208","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",23
-"209","Boy","College","Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",18
-"210","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Moderate",23
-"211","Boy","College","Government","No","No","High","Poor","Mobile Data","2G","1-3","No","Mobile","Low",18
-"212","Boy","University","Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
-"213","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
-"214","Boy","School","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Mobile","High",8
-"215","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","No","Computer","Moderate",23
-"216","Boy","University","Non Government","Yes","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",28
-"217","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",13
-"218","Girl","University","Non Government","Yes","No","High","Poor","Wifi","2G","3-6","Yes","Tab","Low",23
-"219","Girl","University","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Tab","Moderate",23
-"220","Boy","University","Government","No","No","High","Mid","Wifi","4G","0","No","Mobile","Low",23
-"221","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",8
-"222","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
-"223","Boy","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",28
-"224","Girl","University","Government","No","Yes","Low","Mid","Wifi","3G","0","Yes","Mobile","Low",23
-"225","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
-"226","Boy","College","Government","Yes","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
-"227","Girl","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",18
-"228","Girl","University","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",23
-"229","Girl","University","Non Government","Yes","No","High","Mid","Wifi","4G","1-3","Yes","Computer","Moderate",23
-"230","Boy","University","Non Government","No","Yes","High","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
-"231","Girl","University","Non Government","Yes","No","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Moderate",18
-"232","Boy","School","Non Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","High",13
-"233","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
-"234","Girl","College","Government","No","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",18
-"235","Boy","University","Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",23
-"236","Boy","University","Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",23
-"237","Girl","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","Moderate",23
-"238","Boy","College","Government","Yes","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Moderate",18
-"239","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","4G","3-6","No","Mobile","Moderate",23
-"240","Boy","School","Non Government","No","Yes","Low","Rich","Mobile Data","3G","1-3","No","Mobile","High",13
-"241","Boy","School","Non Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
-"242","Girl","School","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
-"243","Girl","School","Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Low",13
-"244","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",18
-"245","Boy","University","Government","No","Yes","Low","Mid","Wifi","4G","3-6","Yes","Computer","Low",18
-"246","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",8
-"247","Boy","School","Government","No","No","High","Mid","Mobile Data","2G","0","No","Mobile","Low",8
-"248","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","High",8
-"249","Boy","School","Non Government","No","Yes","High","Poor","Wifi","4G","0","No","Mobile","Low",13
-"250","Boy","College","Government","No","Yes","High","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",18
-"251","Girl","University","Non Government","Yes","Yes","High","Mid","Wifi","3G","3-6","Yes","Mobile","Moderate",23
-"252","Boy","University","Non Government","Yes","No","High","Mid","Mobile Data","3G","3-6","No","Computer","Low",23
-"253","Boy","College","Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",18
-"254","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Low",18
-"255","Boy","University","Non Government","Yes","No","High","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
-"256","Boy","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","3-6","No","Computer","Moderate",23
+"29","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"30","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"31","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",8
+"32","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
+"33","Boy","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"34","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"35","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"36","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Mobile","Moderate",23
+"37","Girl","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"38","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","High",8
+"39","Girl","University","Government","No","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",28
+"40","Girl","School","Government","No","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","Low",13
+"41","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
+"42","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Moderate",23
+"43","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","0","No","Mobile","Low",18
+"44","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"45","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Computer","Low",23
+"46","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
+"47","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"48","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"49","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"50","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Computer","Low",23
+"51","Boy","College","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"52","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"53","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"54","Boy","University","Government","Yes","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",28
+"55","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",3
+"56","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"57","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"58","Girl","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"59","Girl","School","Non Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"60","Boy","School","Government","No","No","Low","Poor","Mobile Data","3G","0","No","Mobile","Low",18
+"61","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",23
+"62","Boy","College","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"63","Girl","College","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",18
+"64","Boy","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"65","Boy","School","Non Government","No","Yes","High","Poor","Wifi","4G","1-3","No","Mobile","Low",13
+"66","Boy","University","Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",28
+"67","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"68","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",8
+"69","Girl","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",13
+"70","Boy","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"71","Boy","College","Government","No","No","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Low",23
+"72","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
+"73","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"74","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"75","Boy","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"76","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","2G","1-3","No","Mobile","Low",8
+"77","Girl","College","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",18
+"78","Girl","College","Government","No","No","High","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"79","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","3-6","No","Mobile","Moderate",13
+"80","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"81","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"82","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","3-6","No","Mobile","Moderate",13
+"83","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
+"84","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"85","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"86","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"87","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",13
+"88","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Moderate",23
+"89","Boy","School","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Moderate",13
+"90","Boy","University","Government","No","No","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",28
+"91","Boy","University","Non Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"92","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
+"93","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Computer","Moderate",23
+"94","Boy","University","Non Government","Yes","Yes","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Low",23
+"95","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"96","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",18
+"97","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"98","Girl","School","Government","No","No","High","Poor","Mobile Data","2G","1-3","No","Mobile","Low",13
+"99","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Moderate",23
+"100","Boy","College","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"101","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",13
+"102","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",13
+"103","Girl","College","Non Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",18
+"104","Boy","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"105","Girl","School","Non Government","No","Yes","Low","Poor","Wifi","4G","1-3","No","Mobile","Moderate",3
+"106","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",13
+"107","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"108","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",13
+"109","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"110","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","High",23
+"111","Boy","School","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",8
+"112","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"113","Boy","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"114","Boy","University","Non Government","Yes","Yes","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"115","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"116","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
+"117","Boy","University","Government","Yes","Yes","Low","Mid","Wifi","4G","0","No","Computer","Low",28
+"118","Boy","University","Non Government","Yes","Yes","High","Mid","Wifi","4G","3-6","Yes","Computer","Low",23
+"119","Boy","College","Government","No","No","High","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",18
+"120","Girl","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"121","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","3-6","No","Computer","Moderate",18
+"122","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"123","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"124","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"125","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Computer","Moderate",18
+"126","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"127","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
+"128","Boy","College","Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"129","Girl","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",13
+"130","Boy","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","Yes","Computer","High",23
+"131","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Mobile","Moderate",23
+"132","Boy","University","Government","Yes","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",23
+"133","Boy","University","Non Government","Yes","No","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","High",23
+"134","Boy","College","Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",18
+"135","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"136","Boy","University","Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Low",23
+"137","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","0","No","Mobile","Low",18
+"138","Girl","University","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"139","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"140","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"141","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"142","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"143","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"144","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",18
+"145","Boy","University","Government","No","No","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",23
+"146","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",23
+"147","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","3G","3-6","No","Computer","Moderate",23
+"148","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",13
+"149","Girl","University","Non Government","No","Yes","High","Poor","Wifi","4G","3-6","No","Mobile","Low",23
+"150","Girl","University","Government","No","No","Low","Mid","Mobile Data","2G","1-3","No","Mobile","Low",23
+"151","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"152","Boy","College","Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"153","Boy","School","Non Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","No","Mobile","High",13
+"154","Boy","School","Non Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Moderate",8
+"155","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Low",23
+"156","Boy","University","Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Computer","Low",23
+"157","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",3
+"158","Boy","University","Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","No","Computer","High",28
+"159","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"160","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","1-3","Yes","Computer","Moderate",23
+"161","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Low",23
+"162","Boy","University","Non Government","Yes","No","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","High",23
+"163","Boy","University","Government","No","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"164","Boy","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",8
+"165","Girl","College","Government","No","No","High","Poor","Mobile Data","4G","0","No","Mobile","Low",18
+"166","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"167","Boy","College","Government","No","No","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Low",23
+"168","Boy","University","Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",28
+"169","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"170","Boy","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","Yes","Mobile","Low",18
+"171","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","Yes","Computer","Moderate",23
+"172","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",28
+"173","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"174","Boy","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","Yes","Computer","High",23
+"175","Boy","School","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"176","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Low",23
+"177","Girl","School","Non Government","No","Yes","Low","Poor","Wifi","3G","1-3","No","Mobile","Moderate",13
+"178","Boy","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","Yes","Mobile","Low",18
+"179","Girl","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"180","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","0","No","Mobile","Low",18
+"181","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",13
+"182","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",3
+"183","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",3
+"184","Girl","University","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","Moderate",23
+"185","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"186","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"187","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"188","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
+"189","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"190","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"191","Boy","School","Non Government","No","Yes","High","Poor","Wifi","4G","1-3","No","Mobile","Low",13
+"192","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"193","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"194","Boy","School","Government","No","No","Low","Poor","Mobile Data","3G","0","No","Mobile","Low",18
+"195","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
+"196","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Low",23
+"197","Boy","College","Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",18
+"198","Boy","School","Non Government","Yes","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"199","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"200","Girl","School","Government","No","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","Low",13
+"201","Boy","School","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",8
+"202","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"203","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"204","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Moderate",23
+"205","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"206","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","High",13
+"207","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",28
+"208","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"209","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",28
+"210","Girl","University","Non Government","Yes","Yes","High","Mid","Wifi","3G","3-6","Yes","Mobile","Low",23
+"211","Girl","School","Government","No","No","High","Poor","Mobile Data","2G","1-3","No","Mobile","Low",13
+"212","Girl","School","Government","No","No","Low","Rich","Mobile Data","4G","1-3","No","Mobile","High",18
+"213","Girl","College","Government","No","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"214","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","3-6","No","Computer","Moderate",18
+"215","Girl","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"216","Boy","School","Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"217","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"218","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","0","No","Mobile","Low",18
+"219","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","3G","3-6","No","Mobile","Low",23
+"220","Boy","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"221","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Computer","Moderate",23
+"222","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","3-6","No","Mobile","Moderate",13
+"223","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"224","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"225","Girl","University","Non Government","No","No","Low","Mid","Wifi","4G","0","No","Mobile","Low",23
+"226","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"227","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"228","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",3
+"229","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"230","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"231","Girl","School","Non Government","No","Yes","Low","Poor","Wifi","3G","1-3","No","Mobile","Moderate",13
+"232","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Moderate",23
+"233","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",18
+"234","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","High",13
+"235","Boy","University","Non Government","Yes","No","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
+"236","Boy","University","Non Government","Yes","No","High","Poor","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"237","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",23
+"238","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",28
+"239","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","2G","3-6","No","Mobile","Moderate",23
+"240","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",23
+"241","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
+"242","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"243","Girl","School","Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Moderate",13
+"244","Girl","College","Non Government","No","No","High","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"245","Girl","School","Non Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"246","Girl","School","Non Government","No","Yes","Low","Poor","Wifi","4G","1-3","No","Mobile","Moderate",3
+"247","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Computer","Moderate",23
+"248","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"249","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"250","Boy","University","Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"251","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",23
+"252","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"253","Boy","College","Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"254","Boy","University","Government","No","No","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",23
+"255","Girl","School","Non Government","No","Yes","Low","Poor","Wifi","3G","1-3","No","Mobile","Moderate",13
+"256","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"257","Boy","College","Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"258","Girl","University","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"259","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"260","Boy","University","Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","High",28
+"261","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"262","Boy","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","3-6","Yes","Mobile","Low",23
+"263","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"264","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",3
+"265","Boy","College","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"266","Girl","School","Non Government","No","Yes","Low","Poor","Wifi","4G","1-3","No","Mobile","Moderate",3
+"267","Girl","College","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"268","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Low",18
+"269","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"270","Boy","University","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","Yes","Mobile","High",23
+"271","Boy","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"272","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",23
+"273","Boy","School","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"274","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"275","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","2G","1-3","No","Mobile","Low",8
+"276","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"277","Girl","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"278","Girl","University","Government","No","No","Low","Mid","Mobile Data","2G","1-3","No","Mobile","Low",23
+"279","Boy","University","Non Government","No","No","Low","Poor","Mobile Data","4G","1-3","Yes","Mobile","Low",23
+"280","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"281","Boy","University","Government","No","No","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",28
+"282","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
+"283","Girl","University","Non Government","Yes","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",23
+"284","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","4G","1-3","Yes","Computer","High",23
+"285","Boy","University","Non Government","No","No","Low","Mid","Mobile Data","4G","1-3","Yes","Mobile","Moderate",23
+"286","Boy","College","Government","Yes","No","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",23
+"287","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"288","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",13
+"289","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",13
+"290","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"291","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"292","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",13
+"293","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"294","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","Yes","Mobile","Moderate",23
+"295","Girl","School","Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","Yes","Mobile","Low",3
+"296","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"297","Boy","University","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Tab","High",23
+"298","Girl","College","Government","No","No","High","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"299","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"300","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",13
+"301","Boy","University","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","High",23
+"302","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"303","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",3
+"304","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"305","Boy","University","Government","No","No","High","Poor","Mobile Data","4G","3-6","No","Mobile","Moderate",23
+"306","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Low",18
+"307","Boy","College","Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Tab","Moderate",18
+"308","Boy","School","Non Government","No","Yes","Low","Rich","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"309","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"310","Boy","University","Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"311","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"312","Girl","College","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"313","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"314","Boy","School","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Moderate",13
+"315","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"316","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"317","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"318","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",23
+"319","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"320","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"321","Boy","School","Non Government","No","Yes","Low","Rich","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"322","Boy","University","Non Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"323","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"324","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"325","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","3G","3-6","Yes","Mobile","Low",18
+"326","Boy","University","Government","Yes","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",23
+"327","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"328","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",13
+"329","Boy","University","Non Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"330","Girl","College","Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",23
+"331","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"332","Boy","University","Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","Low",23
+"333","Girl","University","Non Government","No","Yes","High","Poor","Wifi","4G","3-6","No","Mobile","Low",23
+"334","Girl","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"335","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"336","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Moderate",23
+"337","Boy","University","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
+"338","Boy","College","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"339","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"340","Girl","University","Government","No","No","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",28
+"341","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"342","Girl","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"343","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"344","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"345","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Computer","Low",23
+"346","Boy","University","Non Government","Yes","No","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"347","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",28
+"348","Boy","School","Non Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Moderate",8
+"349","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"350","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","3-6","No","Mobile","Moderate",13
+"351","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"352","Girl","University","Government","No","No","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",28
+"353","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"354","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
+"355","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"356","Boy","College","Government","Yes","No","Low","Rich","Wifi","4G","0","No","Mobile","Low",18
+"357","Boy","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"358","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"359","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",8
+"360","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"361","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"362","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","High",8
+"363","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Low",23
+"364","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"365","Boy","University","Non Government","Yes","Yes","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Low",23
+"366","Boy","University","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","High",23
+"367","Girl","College","Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"368","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"369","Girl","College","Government","No","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","Moderate",18
+"370","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"371","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"372","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"373","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Low",18
+"374","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Moderate",28
+"375","Boy","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"376","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",8
+"377","Girl","School","Non Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"378","Boy","University","Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"379","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"380","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",28
+"381","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",13
+"382","Boy","University","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Moderate",23
+"383","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"384","Boy","University","Non Government","Yes","No","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
+"385","Boy","College","Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Moderate",18
+"386","Boy","University","Government","Yes","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",23
+"387","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"388","Boy","School","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Moderate",13
+"389","Boy","University","Non Government","Yes","Yes","High","Poor","Mobile Data","3G","1-3","Yes","Computer","Moderate",28
+"390","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"391","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","High",18
+"392","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"393","Girl","College","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"394","Girl","University","Government","No","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",28
+"395","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Low",18
+"396","Boy","University","Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",23
+"397","Girl","University","Non Government","No","No","Low","Mid","Wifi","4G","0","No","Mobile","Low",23
+"398","Boy","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","3-6","No","Mobile","Low",23
+"399","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","4G","1-3","Yes","Computer","High",23
+"400","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",28
+"401","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"402","Boy","College","Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Moderate",18
+"403","Boy","University","Government","Yes","Yes","Low","Mid","Wifi","4G","0","No","Computer","Low",28
+"404","Boy","College","Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"405","Boy","University","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
+"406","Girl","University","Government","No","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",28
+"407","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Computer","High",23
+"408","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"409","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"410","Boy","University","Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","High",28
+"411","Boy","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","Yes","Computer","High",23
+"412","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","4G","1-3","Yes","Computer","High",23
+"413","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"414","Girl","College","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"415","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"416","Boy","University","Government","Yes","Yes","Low","Mid","Wifi","4G","0","No","Computer","Low",28
+"417","Boy","College","Government","No","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"418","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Moderate",28
+"419","Boy","University","Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Computer","Moderate",18
+"420","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Low",18
+"421","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"422","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",8
+"423","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",13
+"424","Girl","College","Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"425","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",3
+"426","Girl","University","Government","No","No","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",28
+"427","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"428","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Computer","High",23
+"429","Boy","School","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Computer","Low",13
+"430","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"431","Boy","University","Government","No","No","High","Poor","Mobile Data","4G","3-6","No","Mobile","Moderate",23
+"432","Girl","University","Government","Yes","Yes","Low","Poor","Mobile Data","4G","0","No","Computer","Low",28
+"433","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",13
+"434","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
+"435","Girl","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"436","Girl","University","Non Government","Yes","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",23
+"437","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",28
+"438","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"439","Boy","School","Non Government","No","Yes","High","Poor","Wifi","4G","1-3","No","Mobile","Low",13
+"440","Girl","College","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",18
+"441","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"442","Boy","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"443","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",28
+"444","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"445","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"446","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","Yes","Mobile","Moderate",23
+"447","Boy","College","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
+"448","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","High",23
+"449","Boy","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","3-6","No","Mobile","Low",23
+"450","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"451","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","3-6","No","Mobile","Moderate",13
+"452","Girl","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","High",23
+"453","Boy","School","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",3
+"454","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","0","No","Mobile","Low",18
+"455","Boy","University","Government","No","No","High","Poor","Mobile Data","4G","3-6","No","Mobile","Moderate",23
+"456","Girl","University","Government","No","Yes","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",23
+"457","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"458","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",23
+"459","Boy","University","Government","No","No","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",23
+"460","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","3G","3-6","No","Computer","Moderate",23
+"461","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"462","Boy","University","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","Yes","Mobile","High",23
+"463","Boy","University","Non Government","Yes","No","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","High",23
+"464","Boy","University","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","Yes","Mobile","High",23
+"465","Girl","School","Non Government","No","Yes","Low","Rich","Wifi","3G","1-3","No","Mobile","High",13
+"466","Boy","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","1-3","Yes","Computer","Moderate",23
+"467","Boy","College","Government","No","No","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Low",23
+"468","Boy","School","Government","No","No","Low","Poor","Mobile Data","3G","0","No","Mobile","Low",13
+"469","Girl","College","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"470","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Low",23
+"471","Boy","University","Non Government","Yes","No","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"472","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Low",23
+"473","Boy","School","Government","No","No","Low","Poor","Mobile Data","3G","0","No","Mobile","Low",13
+"474","Boy","University","Non Government","No","No","Low","Mid","Wifi","4G","0","No","Mobile","Moderate",23
+"475","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",18
+"476","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",13
+"477","Boy","University","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","Yes","Mobile","High",23
+"478","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"479","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"480","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Moderate",28
+"481","Girl","College","Government","No","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","Moderate",18
+"482","Boy","University","Government","No","No","High","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
+"483","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"484","Boy","College","Government","No","Yes","High","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
+"485","Boy","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"486","Boy","School","Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"487","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",23
+"488","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","1-3","Yes","Computer","Moderate",23
+"489","Girl","University","Non Government","Yes","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",23
+"490","Girl","School","Non Government","No","Yes","Low","Poor","Wifi","3G","1-3","No","Mobile","Moderate",13
+"491","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","4G","1-3","Yes","Computer","High",23
+"492","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"493","Boy","College","Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",18
+"494","Girl","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","High",23
+"495","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"496","Girl","College","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"497","Boy","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"498","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Moderate",23
+"499","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
+"500","Boy","University","Non Government","Yes","No","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
+"501","Girl","College","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"502","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"503","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"504","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Computer","Low",23
+"505","Girl","College","Government","No","No","High","Poor","Mobile Data","4G","0","No","Mobile","Low",18
+"506","Boy","College","Government","No","No","High","Poor","Mobile Data","2G","1-3","No","Mobile","Low",18
+"507","Girl","School","Non Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","High",8
+"508","Boy","University","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Moderate",23
+"509","Girl","College","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"510","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"511","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"512","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"513","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"514","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"515","Girl","School","Government","No","No","High","Poor","Mobile Data","2G","1-3","No","Mobile","Low",13
+"516","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",18
+"517","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"518","Boy","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","Yes","Computer","High",23
+"519","Girl","University","Non Government","Yes","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",23
+"520","Boy","University","Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"521","Girl","College","Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"522","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"523","Boy","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"524","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Mobile","Moderate",23
+"525","Boy","University","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
+"526","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"527","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"528","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
+"529","Boy","College","Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"530","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"531","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",23
+"532","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
+"533","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"534","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"535","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"536","Boy","University","Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Computer","Moderate",18
+"537","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"538","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"539","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",13
+"540","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"541","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"542","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"543","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"544","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"545","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"546","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"547","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","High",8
+"548","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",13
+"549","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"550","Boy","University","Non Government","Yes","Yes","High","Poor","Mobile Data","3G","1-3","Yes","Computer","Moderate",28
+"551","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"552","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
+"553","Boy","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"554","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"555","Boy","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","1-3","Yes","Computer","Moderate",23
+"556","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"557","Girl","University","Government","No","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",28
+"558","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","2G","3-6","No","Mobile","Moderate",23
+"559","Girl","College","Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",23
+"560","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"561","Boy","School","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Mobile","High",8
+"562","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",3
+"563","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"564","Boy","University","Government","No","No","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",23
+"565","Boy","University","Government","Yes","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",23
+"566","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","No","Computer","Moderate",23
+"567","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",28
+"568","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"569","Boy","College","Government","No","No","High","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",18
+"570","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","3-6","No","Mobile","Moderate",13
+"571","Boy","University","Non Government","Yes","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",28
+"572","Boy","School","Non Government","No","Yes","Low","Rich","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"573","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","4G","1-3","Yes","Computer","High",23
+"574","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",13
+"575","Girl","College","Non Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",18
+"576","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"577","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"578","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",23
+"579","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Mobile","Moderate",23
+"580","Boy","College","Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"581","Boy","University","Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Computer","Low",23
+"582","Boy","University","Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Low",23
+"583","Boy","College","Government","No","No","High","Poor","Mobile Data","2G","1-3","No","Mobile","Low",18
+"584","Boy","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"585","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Computer","High",23
+"586","Girl","University","Non Government","Yes","No","High","Poor","Wifi","2G","3-6","Yes","Tab","Low",23
+"587","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"588","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",23
+"589","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","3G","3-6","No","Mobile","Low",23
+"590","Boy","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"591","Boy","School","Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"592","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
+"593","Boy","University","Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","No","Computer","High",28
+"594","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Computer","Low",23
+"595","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"596","Boy","College","Government","Yes","No","Low","Rich","Wifi","4G","0","No","Mobile","Low",18
+"597","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Moderate",28
+"598","Boy","University","Government","No","No","High","Poor","Mobile Data","4G","3-6","No","Mobile","Moderate",23
+"599","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","3-6","No","Mobile","Moderate",13
+"600","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",28
+"601","Girl","School","Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","Yes","Mobile","Low",3
+"602","Girl","University","Government","No","Yes","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",23
+"603","Girl","University","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Tab","Moderate",23
+"604","Girl","College","Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",23
+"605","Boy","University","Government","Yes","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",23
+"606","Boy","University","Government","No","No","High","Poor","Mobile Data","4G","3-6","No","Mobile","Moderate",23
+"607","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","High",13
+"608","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
+"609","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"610","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",3
+"611","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",13
+"612","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"613","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",23
+"614","Boy","University","Government","No","No","High","Mid","Wifi","4G","0","No","Mobile","Low",23
+"615","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"616","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","High",8
+"617","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"618","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",8
+"619","Girl","University","Government","No","Yes","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",23
+"620","Boy","University","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","High",23
+"621","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",13
+"622","Girl","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"623","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"624","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"625","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",3
+"626","Boy","School","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Computer","Low",13
+"627","Boy","College","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"628","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","High",13
+"629","Boy","School","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Mobile","High",8
+"630","Boy","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",28
+"631","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"632","Girl","College","Non Government","No","No","High","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"633","Girl","University","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"634","Girl","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"635","Girl","University","Government","No","Yes","Low","Mid","Wifi","3G","0","Yes","Mobile","Low",23
+"636","Boy","School","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"637","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",28
+"638","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"639","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"640","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"641","Boy","School","Non Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","No","Mobile","High",13
+"642","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"643","Boy","College","Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"644","Girl","School","Non Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","High",8
+"645","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",13
+"646","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"647","Boy","University","Government","No","No","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",28
+"648","Boy","University","Government","Yes","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",28
+"649","Boy","University","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","Yes","Mobile","High",23
+"650","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"651","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"652","Boy","University","Government","Yes","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",28
+"653","Boy","College","Government","Yes","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
+"654","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
+"655","Boy","University","Non Government","Yes","Yes","High","Mid","Wifi","4G","3-6","Yes","Computer","Low",23
+"656","Boy","School","Non Government","No","Yes","Low","Rich","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"657","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","High",13
+"658","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"659","Girl","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"660","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Low",18
+"661","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",13
+"662","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"663","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"664","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"665","Boy","University","Non Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"666","Girl","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",18
+"667","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",13
+"668","Girl","School","Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Moderate",13
+"669","Boy","University","Government","Yes","Yes","Low","Mid","Wifi","4G","0","No","Computer","Low",28
+"670","Boy","School","Non Government","No","Yes","Low","Rich","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"671","Girl","College","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"672","Girl","University","Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",23
+"673","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"674","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
+"675","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Low",18
+"676","Boy","University","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Moderate",23
+"677","Boy","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","1-3","Yes","Computer","Moderate",23
+"678","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",3
+"679","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"680","Boy","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"681","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Low",23
+"682","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","High",8
+"683","Girl","University","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",23
+"684","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Moderate",28
+"685","Boy","School","Government","No","No","Low","Poor","Mobile Data","3G","0","No","Mobile","Low",13
+"686","Girl","College","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"687","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",13
+"688","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","3G","3-6","No","Mobile","Low",23
+"689","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"690","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","4G","1-3","Yes","Computer","High",23
+"691","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",28
+"692","Boy","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"693","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
+"694","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",3
+"695","Boy","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","3-6","Yes","Mobile","Low",23
+"696","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","3-6","No","Mobile","Moderate",13
+"697","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",8
+"698","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Computer","Low",23
+"699","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"700","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"701","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"702","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
+"703","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"704","Girl","School","Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","Yes","Mobile","Low",3
+"705","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"706","Girl","University","Non Government","Yes","No","High","Mid","Wifi","4G","1-3","Yes","Computer","Moderate",23
+"707","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"708","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"709","Boy","University","Non Government","No","Yes","High","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"710","Boy","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"711","Boy","College","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"712","Boy","College","Government","Yes","No","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",23
+"713","Boy","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","Yes","Mobile","Low",18
+"714","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"715","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",28
+"716","Girl","School","Non Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"717","Girl","School","Non Government","No","Yes","Low","Rich","Wifi","3G","1-3","No","Mobile","High",13
+"718","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",28
+"719","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"720","Boy","University","Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"721","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"722","Girl","College","Government","No","No","High","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"723","Boy","University","Non Government","Yes","No","High","Poor","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"724","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"725","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"726","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"727","Girl","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",18
+"728","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"729","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"730","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"731","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Mobile","Moderate",23
+"732","Girl","University","Non Government","Yes","No","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Moderate",18
+"733","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"734","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","4G","1-3","Yes","Computer","High",23
+"735","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"736","Boy","School","Non Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","High",13
+"737","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
+"738","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
+"739","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"740","Boy","University","Government","No","No","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",28
+"741","Boy","College","Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Tab","Moderate",18
+"742","Boy","School","Non Government","Yes","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"743","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",23
+"744","Girl","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"745","Girl","College","Government","No","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",18
+"746","Boy","University","Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",23
+"747","Boy","College","Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Moderate",18
+"748","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"749","Boy","University","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","Yes","Mobile","High",23
+"750","Boy","University","Non Government","Yes","No","High","Poor","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"751","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"752","Boy","University","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Moderate",23
+"753","Boy","School","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Moderate",13
+"754","Boy","University","Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",23
+"755","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","2G","3-6","No","Mobile","Moderate",23
+"756","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",13
+"757","Boy","University","Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Computer","Moderate",18
+"758","Boy","University","Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","Low",23
+"759","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"760","Boy","College","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"761","Boy","College","Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"762","Girl","University","Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",23
+"763","Girl","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","Moderate",23
+"764","Girl","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"765","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
+"766","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"767","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",18
+"768","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"769","Boy","College","Government","Yes","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Moderate",18
+"770","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","High",18
+"771","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"772","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",23
+"773","Girl","University","Non Government","Yes","No","High","Poor","Wifi","2G","3-6","Yes","Tab","Low",23
+"774","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"775","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","3G","3-6","No","Mobile","Low",23
+"776","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"777","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"778","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",23
+"779","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",8
+"780","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",3
+"781","Boy","University","Non Government","Yes","No","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
+"782","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"783","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",13
+"784","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
+"785","Boy","University","Non Government","No","No","Low","Poor","Mobile Data","4G","1-3","Yes","Mobile","Low",23
+"786","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
+"787","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"788","Girl","College","Government","No","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",18
+"789","Boy","School","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Mobile","High",8
+"790","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",23
+"791","Girl","University","Government","No","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",28
+"792","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"793","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"794","Girl","School","Non Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"795","Boy","University","Government","No","No","High","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
+"796","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",18
+"797","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"798","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","4G","3-6","No","Mobile","Moderate",23
+"799","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"800","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",23
+"801","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",18
+"802","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",13
+"803","Boy","School","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Computer","Low",13
+"804","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"805","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Low",23
+"806","Boy","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",8
+"807","Girl","School","Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Moderate",13
+"808","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"809","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"810","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
+"811","Boy","University","Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","No","Computer","High",28
+"812","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"813","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"814","Boy","University","Government","Yes","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",23
+"815","Boy","School","Non Government","No","Yes","Low","Rich","Mobile Data","3G","1-3","No","Mobile","High",13
+"816","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"817","Boy","School","Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"818","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"819","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
+"820","Boy","School","Government","No","No","Low","Poor","Mobile Data","3G","0","No","Mobile","Low",13
+"821","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"822","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",8
+"823","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",13
+"824","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"825","Girl","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"826","Boy","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"827","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
+"828","Girl","University","Non Government","Yes","No","High","Mid","Wifi","4G","1-3","Yes","Computer","Moderate",23
+"829","Boy","University","Non Government","Yes","No","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
+"830","Boy","School","Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"831","Boy","College","Government","No","Yes","High","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
+"832","Boy","School","Non Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"833","Boy","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"834","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"835","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Computer","Low",23
+"836","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"837","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"838","Boy","College","Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"839","Boy","University","Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"840","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",8
+"841","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",3
+"842","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","High",18
+"843","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"844","Boy","University","Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Computer","Moderate",18
+"845","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",13
+"846","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"847","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"848","Girl","College","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"849","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","High",8
+"850","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"851","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"852","Girl","College","Government","No","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"853","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"854","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"855","Girl","School","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
+"856","Girl","College","Government","No","No","High","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"857","Girl","School","Government","No","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","Low",13
+"858","Girl","College","Government","No","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",18
+"859","Boy","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",28
+"860","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"861","Boy","University","Non Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"862","Boy","University","Non Government","No","No","Low","Mid","Wifi","4G","0","No","Mobile","Moderate",23
+"863","Girl","University","Government","No","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Low",28
+"864","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",8
+"865","Girl","University","Non Government","No","No","Low","Mid","Wifi","4G","0","No","Mobile","Low",23
+"866","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"867","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"868","Girl","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",18
+"869","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"870","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",8
+"871","Boy","College","Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"872","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"873","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"874","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","0","No","Mobile","Low",18
+"875","Girl","College","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"876","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Moderate",23
+"877","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"878","Girl","College","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"879","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"880","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"881","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"882","Girl","School","Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Low",13
+"883","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"884","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","3-6","No","Mobile","Moderate",13
+"885","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
+"886","Boy","School","Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"887","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"888","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"889","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Computer","Moderate",18
+"890","Boy","University","Non Government","Yes","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",28
+"891","Boy","University","Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Computer","Moderate",18
+"892","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",18
+"893","Girl","School","Non Government","No","Yes","Low","Poor","Wifi","3G","1-3","No","Mobile","Moderate",13
+"894","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"895","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",8
+"896","Girl","University","Non Government","Yes","No","High","Mid","Wifi","4G","1-3","Yes","Computer","Moderate",23
+"897","Girl","University","Non Government","Yes","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",23
+"898","Boy","School","Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"899","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Low",23
+"900","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
+"901","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",18
+"902","Boy","University","Non Government","No","No","Low","Mid","Mobile Data","4G","1-3","Yes","Mobile","Moderate",23
+"903","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",13
+"904","Girl","College","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",18
+"905","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",13
+"906","Boy","School","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Mobile","High",8
+"907","Girl","School","Government","No","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","Low",13
+"908","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"909","Boy","School","Non Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Moderate",8
+"910","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",13
+"911","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"912","Boy","University","Government","No","Yes","Low","Mid","Wifi","4G","3-6","Yes","Computer","Low",18
+"913","Boy","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"914","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"915","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",8
+"916","Boy","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"917","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"918","Boy","University","Government","Yes","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",28
+"919","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","4G","1-3","Yes","Computer","High",23
+"920","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"921","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"922","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"923","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","No","Computer","Moderate",23
+"924","Boy","College","Government","Yes","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
+"925","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","High",23
+"926","Girl","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"927","Boy","University","Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",23
+"928","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"929","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",8
+"930","Girl","School","Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Moderate",13
+"931","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"932","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"933","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"934","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","3G","3-6","No","Computer","Moderate",23
+"935","Boy","School","Government","No","No","High","Mid","Mobile Data","2G","0","No","Mobile","Low",8
+"936","Boy","College","Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Tab","Moderate",18
+"937","Boy","University","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Tab","High",23
+"938","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"939","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"940","Girl","School","Non Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","High",8
+"941","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"942","Boy","University","Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",23
+"943","Girl","College","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"944","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",13
+"945","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
+"946","Boy","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"947","Boy","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"948","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"949","Boy","College","Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"950","Boy","University","Non Government","No","No","Low","Mid","Wifi","4G","0","No","Mobile","Moderate",23
+"951","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","3G","3-6","No","Mobile","Low",23
+"952","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Low",23
+"953","Boy","College","Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Moderate",18
+"954","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"955","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","High",8
+"956","Boy","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"957","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",13
+"958","Boy","University","Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"959","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",8
+"960","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"961","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Low",18
+"962","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"963","Boy","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","Yes","Computer","High",23
+"964","Girl","University","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",23
+"965","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"966","Boy","College","Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"967","Boy","University","Non Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"968","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",23
+"969","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"970","Boy","University","Government","Yes","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",28
+"971","Girl","School","Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Moderate",13
+"972","Girl","School","Non Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"973","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",28
+"974","Boy","School","Government","No","Yes","Low","Rich","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"975","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Low",23
+"976","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"977","Boy","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"978","Boy","School","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",8
+"979","Boy","School","Government","No","No","High","Mid","Mobile Data","2G","0","No","Mobile","Low",8
+"980","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"981","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"982","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"983","Boy","University","Government","Yes","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",23
+"984","Boy","College","Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Moderate",18
+"985","Girl","College","Government","No","No","High","Mid","Mobile Data","3G","0","No","Mobile","Low",23
+"986","Boy","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"987","Boy","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"988","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",13
+"989","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"990","Boy","University","Government","No","No","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",28
+"991","Girl","University","Non Government","No","Yes","High","Poor","Wifi","4G","3-6","No","Mobile","Low",23
+"992","Boy","School","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Computer","Low",13
+"993","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
+"994","Boy","University","Government","No","Yes","Low","Mid","Wifi","4G","3-6","Yes","Computer","Low",18
+"995","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"996","Girl","School","Government","No","No","Low","Rich","Mobile Data","4G","1-3","No","Mobile","High",18
+"997","Boy","University","Non Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"998","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"999","Girl","School","Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Low",13
+"1000","Boy","University","Government","No","No","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"1001","Boy","School","Non Government","No","Yes","High","Poor","Wifi","4G","0","No","Mobile","Low",13
+"1002","Girl","College","Non Government","No","No","High","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"1003","Boy","University","Non Government","Yes","Yes","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"1004","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"1005","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"1006","Boy","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1007","Girl","University","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","Moderate",23
+"1008","Girl","University","Non Government","No","Yes","High","Mid","Mobile Data","4G","1-3","Yes","Mobile","Moderate",23
+"1009","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"1010","Boy","School","Non Government","No","Yes","High","Poor","Wifi","4G","0","No","Mobile","Low",13
+"1011","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
+"1012","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1013","Girl","University","Government","No","No","Low","Mid","Mobile Data","2G","1-3","No","Mobile","Low",23
+"1014","Girl","University","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",28
+"1015","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
+"1016","Boy","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"1017","Boy","College","Government","No","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"1018","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"1019","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
+"1020","Boy","School","Non Government","No","Yes","Low","Rich","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1021","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"1022","Boy","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","1-3","Yes","Computer","Moderate",23
+"1023","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","3-6","No","Mobile","Moderate",13
+"1024","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"1025","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",23
+"1026","Boy","University","Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",28
+"1027","Boy","School","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Computer","Low",13
+"1028","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
+"1029","Girl","College","Government","No","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"1030","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"1031","Girl","School","Government","No","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","Low",13
+"1032","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","High",8
+"1033","Girl","College","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"1034","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",13
+"1035","Girl","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","Moderate",23
+"1036","Girl","University","Non Government","No","No","Low","Mid","Wifi","4G","0","No","Mobile","Low",23
+"1037","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",3
+"1038","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Mobile","Moderate",23
+"1039","Girl","College","Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"1040","Girl","School","Non Government","No","Yes","Low","Rich","Wifi","3G","1-3","No","Mobile","High",13
+"1041","Boy","School","Non Government","No","Yes","High","Poor","Wifi","4G","0","No","Mobile","Low",13
+"1042","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"1043","Boy","University","Non Government","No","Yes","High","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"1044","Boy","University","Government","Yes","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",23
+"1045","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"1046","Boy","University","Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Computer","Low",23
+"1047","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Tab","Moderate",23
+"1048","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"1049","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"1050","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1051","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"1052","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Moderate",23
+"1053","Girl","School","Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Moderate",13
+"1054","Boy","School","Non Government","No","Yes","High","Poor","Wifi","4G","0","No","Mobile","Low",13
+"1055","Boy","School","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",3
+"1056","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"1057","Girl","University","Non Government","No","Yes","Low","Rich","Wifi","4G","3-6","No","Tab","Moderate",23
+"1058","Boy","College","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"1059","Girl","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","Moderate",23
+"1060","Boy","School","Non Government","No","Yes","High","Poor","Wifi","4G","0","No","Mobile","Low",13
+"1061","Boy","University","Government","No","No","Low","Poor","Mobile Data","4G","0","No","Mobile","Low",28
+"1062","Boy","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","1-3","Yes","Computer","Moderate",23
+"1063","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","No","Computer","Moderate",23
+"1064","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",18
+"1065","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1066","Boy","University","Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","No","Computer","High",28
+"1067","Boy","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",13
+"1068","Boy","University","Government","No","No","High","Mid","Wifi","4G","0","No","Mobile","Low",23
+"1069","Boy","University","Non Government","Yes","Yes","High","Mid","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"1070","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","3-6","Yes","Mobile","Moderate",23
+"1071","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",18
+"1072","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",13
+"1073","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","High",13
+"1074","Girl","University","Government","No","Yes","Low","Mid","Wifi","3G","0","Yes","Mobile","Low",23
+"1075","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1076","Boy","University","Non Government","Yes","Yes","High","Mid","Wifi","4G","3-6","Yes","Computer","Low",23
+"1077","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","High",13
+"1078","Boy","College","Government","No","Yes","High","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"1079","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1080","Boy","College","Government","No","No","High","Poor","Mobile Data","2G","1-3","No","Mobile","Low",18
+"1081","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","3G","3-6","Yes","Mobile","Low",18
+"1082","Boy","College","Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"1083","Boy","University","Non Government","No","No","Low","Mid","Wifi","4G","0","No","Mobile","Moderate",23
+"1084","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"1085","Girl","University","Non Government","Yes","No","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Moderate",18
+"1086","Boy","School","Non Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Moderate",8
+"1087","Boy","College","Government","Yes","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
+"1088","Boy","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",23
+"1089","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",23
+"1090","Girl","College","Government","No","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"1091","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1092","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"1093","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","3G","3-6","Yes","Mobile","Low",18
+"1094","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"1095","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
+"1096","Girl","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","3-6","No","Computer","High",23
+"1097","Girl","University","Non Government","Yes","Yes","High","Mid","Wifi","3G","3-6","Yes","Mobile","Moderate",23
+"1098","Boy","University","Non Government","Yes","Yes","Low","Rich","Wifi","4G","3-6","No","Mobile","Low",23
+"1099","Girl","College","Non Government","No","No","High","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"1100","Girl","School","Non Government","No","Yes","Low","Poor","Wifi","3G","1-3","No","Mobile","Moderate",13
+"1101","Boy","School","Non Government","No","Yes","High","Poor","Wifi","4G","0","No","Mobile","Low",13
+"1102","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"1103","Girl","College","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"1104","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1105","Boy","School","Non Government","No","Yes","Low","Rich","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1106","Boy","School","Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"1107","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","3G","1-3","No","Mobile","High",8
+"1108","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1109","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",8
+"1110","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","3-6","No","Mobile","Moderate",13
+"1111","Boy","College","Government","No","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Moderate",18
+"1112","Boy","College","Government","No","No","High","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",18
+"1113","Boy","School","Non Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"1114","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"1115","Girl","School","Non Government","No","Yes","Low","Rich","Wifi","3G","1-3","No","Mobile","High",13
+"1116","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"1117","Boy","College","Government","No","Yes","High","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"1118","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","Yes","Mobile","Moderate",23
+"1119","Girl","College","Non Government","No","No","High","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"1120","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1121","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"1122","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"1123","Boy","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",18
+"1124","Boy","College","Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Tab","Moderate",18
+"1125","Boy","University","Non Government","Yes","No","High","Mid","Mobile Data","3G","3-6","No","Computer","Low",23
+"1126","Girl","School","Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Moderate",13
+"1127","Boy","University","Non Government","Yes","No","High","Mid","Mobile Data","3G","3-6","No","Computer","Low",23
+"1128","Boy","School","Government","No","Yes","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",8
+"1129","Boy","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",13
+"1130","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1131","Boy","School","Non Government","No","Yes","High","Poor","Wifi","4G","1-3","No","Mobile","Low",13
+"1132","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"1133","Boy","College","Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",18
+"1134","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"1135","Girl","College","Non Government","No","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"1136","Girl","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",18
+"1137","Girl","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",23
+"1138","Girl","University","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Moderate",23
+"1139","Girl","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"1140","Boy","University","Government","No","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Low",23
+"1141","Girl","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"1142","Boy","School","Non Government","No","Yes","Low","Rich","Mobile Data","3G","1-3","No","Mobile","High",13
+"1143","Girl","School","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
+"1144","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","3G","3-6","Yes","Mobile","Low",18
+"1145","Boy","College","Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"1146","Boy","College","Government","Yes","Yes","Low","Mid","Wifi","4G","1-3","Yes","Tab","Moderate",18
+"1147","Boy","University","Non Government","No","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Moderate",23
+"1148","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"1149","Boy","College","Government","No","Yes","High","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",18
+"1150","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","3G","1-3","Yes","Mobile","Low",18
+"1151","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
+"1152","Girl","School","Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",13
+"1153","Girl","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"1154","Girl","School","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"1155","Boy","University","Non Government","Yes","No","High","Mid","Mobile Data","3G","3-6","No","Computer","Low",23
+"1156","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","4G","1-3","No","Mobile","Moderate",3
+"1157","Boy","College","Government","Yes","Yes","Low","Mid","Wifi","4G","0","No","Mobile","Moderate",18
+"1158","Boy","University","Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","No","Computer","High",28
+"1159","Girl","University","Government","No","No","Low","Mid","Mobile Data","2G","1-3","No","Mobile","Low",23
+"1160","Boy","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1161","Boy","University","Non Government","Yes","No","High","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"1162","Girl","School","Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"1163","Girl","University","Non Government","Yes","No","High","Poor","Mobile Data","3G","1-3","Yes","Mobile","Moderate",18
+"1164","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","3-6","No","Mobile","Moderate",13
+"1165","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","3-6","No","Mobile","Moderate",13
+"1166","Boy","University","Non Government","Yes","No","High","Mid","Mobile Data","3G","1-3","Yes","Mobile","Moderate",23
+"1167","Girl","School","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Computer","Moderate",13
+"1168","Girl","University","Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
+"1169","Boy","University","Non Government","Yes","No","Low","Mid","Wifi","4G","3-6","Yes","Computer","Moderate",23
+"1170","Girl","College","Non Government","No","No","Low","Mid","Mobile Data","3G","3-6","Yes","Mobile","Low",18
+"1171","Boy","University","Non Government","Yes","No","High","Poor","Mobile Data","3G","3-6","Yes","Mobile","Moderate",23
+"1172","Boy","University","Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","High",28
+"1173","Boy","University","Government","No","No","High","Mid","Mobile Data","4G","1-3","No","Mobile","Low",23
+"1174","Girl","College","Government","No","No","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Low",18
+"1175","Boy","University","Government","No","Yes","Low","Mid","Mobile Data","4G","3-6","No","Mobile","Moderate",23
+"1176","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"1177","Boy","University","Government","Yes","Yes","Low","Rich","Wifi","4G","1-3","No","Computer","High",28
+"1178","Boy","School","Government","No","No","Low","Mid","Mobile Data","3G","0","No","Mobile","Low",8
+"1179","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","4G","1-3","No","Mobile","Moderate",13
+"1180","Girl","School","Non Government","No","Yes","Low","Rich","Wifi","3G","1-3","No","Mobile","High",13
+"1181","Boy","School","Government","No","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",3
+"1182","Boy","College","Government","Yes","Yes","Low","Mid","Mobile Data","4G","1-3","Yes","Mobile","Low",18
+"1183","Boy","University","Non Government","Yes","No","Low","Mid","Mobile Data","3G","1-3","Yes","Computer","Moderate",23
+"1184","Girl","College","Government","No","No","High","Poor","Mobile Data","4G","0","No","Mobile","Low",18
+"1185","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1186","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Low",13
+"1187","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1188","Girl","College","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"1189","Boy","School","Non Government","No","Yes","Low","Rich","Wifi","4G","1-3","No","Mobile","Moderate",8
+"1190","Girl","University","Non Government","Yes","Yes","High","Mid","Wifi","4G","1-3","No","Mobile","Low",23
+"1191","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","3G","1-3","Yes","Mobile","Moderate",28
+"1192","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1193","Boy","College","Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"1194","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","4G","1-3","Yes","Computer","High",23
+"1195","Boy","School","Non Government","No","No","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Low",13
+"1196","Boy","University","Non Government","Yes","Yes","High","Poor","Wifi","4G","1-3","Yes","Computer","High",23
+"1197","Boy","College","Government","No","No","High","Mid","Mobile Data","3G","1-3","No","Mobile","Low",18
+"1198","Boy","University","Non Government","Yes","Yes","Low","Mid","Mobile Data","4G","3-6","No","Computer","Moderate",23
+"1199","Boy","College","Government","Yes","No","Low","Mid","Mobile Data","4G","0","No","Mobile","Low",18
+"1200","Boy","University","Non Government","Yes","Yes","Low","Mid","Wifi","4G","3-6","No","Computer","Low",23
+"1201","Girl","College","Non Government","No","Yes","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"1202","Girl","College","Non Government","No","No","High","Mid","Wifi","4G","3-6","No","Mobile","Moderate",18
+"1203","Boy","School","Non Government","No","Yes","Low","Mid","Mobile Data","3G","1-3","No","Mobile","Moderate",13
+"1204","Girl","College","Non Government","No","No","Low","Mid","Wifi","4G","1-3","No","Mobile","Low",18
+"1205","Girl","School","Non Government","No","Yes","Low","Poor","Mobile Data","3G","1-3","No","Mobile","Moderate",13
