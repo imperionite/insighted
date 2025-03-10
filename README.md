@@ -58,10 +58,13 @@ EDA will be conducted to understand the distribution, patterns, and relationship
 -   **Correlation Analysis:** Measuring associations between numeric variables like age and adaptivity level.
 
 ### Logistic Regression
-    * A binary variable, `high_adaptivity`, will be created where "High" adaptivity is 1 and "Moderate" or "Low" adaptivity is 0. This variable represents "online learning success" as defined in this study.
-    * The `glm()` function in R will be used with the `binomial` family to model the probability of high adaptivity based on the engineered variables: digital literacy, socio-economic status, and access score.
-    * The coefficients, odds ratios (using `exp(coef(model))`), and p-values will be interpreted to understand the impact and significance of each variable.
-    * Example R code:
+- A binary variable, `high_adaptivity`, will be created where "High" adaptivity is 1 and "Moderate" or "Low" adaptivity is 0. This variable represents "online learning success" as defined in this study.
+
+- The `glm()` function in R will be used with the `binomial` family to model the probability of high adaptivity based on the engineered variables: digital literacy, socio-economic status, and access score.
+
+- The coefficients, odds ratios (using `exp(coef(model))`), and p-values will be interpreted to understand the impact and significance of each variable.
+
+Example R code:
         ```R
         data$high_adaptivity <- ifelse(data$adaptivity_level == "High", 1, 0)
         data$high_adaptivity <- as.factor(data$high_adaptivity)
