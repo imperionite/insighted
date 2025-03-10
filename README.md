@@ -64,7 +64,9 @@ EDA will be conducted to understand the distribution, patterns, and relationship
 
 - The coefficients, odds ratios (using `exp(coef(model))`), and p-values will be interpreted to understand the impact and significance of each variable.
 
-Example R code:
+**Example R code:**
+
+
         ```R
         data$high_adaptivity <- ifelse(data$adaptivity_level == "High", 1, 0)
         data$high_adaptivity <- as.factor(data$high_adaptivity)
