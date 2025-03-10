@@ -1,9 +1,5 @@
 # InsightEd
 
-Submission for MS 2 and Homework #5: Mini Task # 3
-
-
-
 
 ## Focus Question
 
@@ -14,7 +10,7 @@ Submission for MS 2 and Homework #5: Mini Task # 3
 To conduct an empirical investigation to the provided dataset and to focus on the variables that give insights into the proper selection of scholarship recipients.
 
 
-**Empirical Investigation: Identifying Key Factors for Scholarship Selection**
+### Empirical Investigation: Identifying Key Factors for Scholarship Selection
 
 
 ### Introduction
