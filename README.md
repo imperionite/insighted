@@ -1,6 +1,18 @@
 # InsightEd
 
-**Empirical Investigation: Identifying Key Factors for Scholarship Selection**
+
+## Focus Question
+
+*Who would most likely be successful in an online community that is worth giving a full scholarship coverage for the entire stay in basic education and/or higher education?*
+
+### Plan of Action
+
+To conduct an empirical investigation to the provided dataset and to focus on the variables that gives insights in proper selection of scholarship recipients.
+
+
+#### Empirical Investigation
+
+**Identifying Key Factors for Scholarship Selection**
 
 ## Introduction
 
