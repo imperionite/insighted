@@ -79,3 +79,37 @@ However, **socio-economic status** (Low, Medium, or Other) did not appear to hav
 #### Generalization
 
 In conclusion, this study highlights the importance of **digital literacy** and **access to resources** in promoting adaptability. While socio-economic status did not significantly impact adaptivity in this analysis, the findings suggest that enhancing digital skills and access to opportunities could be pivotal in fostering adaptability across various contexts.
+
+
+### Evaluating the Model Performance
+
+**Confusion Matrix**
+
+The confusion matrix for the model’s predictions of high adaptivity is presented below:
+
+| Actual/Predicted | 0   | 1   |
+|------------------|-----|-----|
+| **0**            | 123 | 357 |
+| **1**            | 87  | 638 |
+
+This matrix provides insight into the model's performance by showing how many instances of each class (high adaptivity = 1, low adaptivity = 0) were correctly or incorrectly classified. Specifically:
+- **True Negatives (TN)**: The model correctly predicted 123 instances of low adaptivity (0).
+- **False Positives (FP)**: The model incorrectly predicted 357 instances as high adaptivity (1) when they were actually low adaptivity (0).
+- **False Negatives (FN)**: The model incorrectly predicted 87 instances as low adaptivity (0) when they were actually high adaptivity (1).
+- **True Positives (TP)**: The model correctly predicted 638 instances of high adaptivity (1).
+
+The model shows a relatively higher number of false positives (357) and true positives (638), indicating a bias towards predicting high adaptivity more often than low adaptivity. This is common in imbalanced datasets, where one class is more frequent than the other. The imbalance in predicted classes could affect the model's overall performance, and this may require adjustment through techniques such as re-sampling or class-weighting.
+
+### 
+
+**ROC Curve and AUC**
+
+The ROC (Receiver Operating Characteristic) curve and the associated AUC (Area Under the Curve) provide a measure of the model's discriminatory ability, specifically how well it distinguishes between high and low adaptivity.
+
+The AUC value obtained was **0.6549**, indicating that the model has moderate ability to discriminate between the two classes. An AUC of 0.5 would suggest no discriminative ability (random guessing), while an AUC of 1 would represent perfect discrimination. Therefore, an AUC of 0.6549 suggests that the model performs better than random guessing, but there is room for improvement in its ability to distinguish between the two classes.
+
+Given that the AUC is between 0.5 and 0.7, the model demonstrates some useful predictive capability, but there may be better-performing models or additional tuning required to achieve higher discrimination. 
+
+**Conclusion**
+
+The model demonstrates moderate predictive ability with a reasonable ability to distinguish between high and low adaptivity, as indicated by the confusion matrix and AUC value. However, with an AUC of 0.6549, the model's performance could likely be improved by adjusting parameters, addressing class imbalances, or exploring more complex algorithms. Further refinements may lead to better classification accuracy and more reliable predictions of high adaptivity.
