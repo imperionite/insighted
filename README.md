@@ -123,6 +123,32 @@ To run this project, I’ve set up a **virtual environment** using **Miniconda**
     ```bash
     jupyter lab
     ```
-7.  **Run the Notebook**: Once the environment is set up, open the provided **Jupyter Notebook** and execute the cells to replicate the analysis and visualizations.
+7. **Running Initial Environment (Optional)**:
 
-**Note:** Consider adding a `requirements.txt` (pip) or `environment.yml` (conda) file to streamline the environment setup for others.
+    ```R
+    name: online-education-success
+    channels:
+      - conda-forge
+      - defaults
+    dependencies:
+      - r-base=4.2.2
+      - r-tidyverse
+      - r-ggplot2
+      - r-irkernel
+      - r-dplyr
+      - r-readr
+      - r-stringr
+      - r-forcats
+      - r-reshape2
+      - r-plotly
+      - jupyterlab
+
+    # To create this environment, run:
+    # conda env create -f environment.yml
+
+    # To activate the environment, run:
+    # conda activate online-education-success
+
+    # To add this R environment as a kernel in Jupyter Lab, run:
+    # R -e "IRkernel::installspec(name='online-education-success', displayname='R (online-education-success)')"
+    ```
