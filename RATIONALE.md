@@ -19,9 +19,9 @@ Fisher's Exact Test (and Chi-square tests) are specifically designed for analyzi
 
 **Logistic Regression:**
 
-ogistic regression to test the association between access_score and high_adaptivity.
--ogistic regression can handle both categorical and numerical predictors.
--he p-value associated with the access_score coefficient in the logistic regression output tells us whether there is a statistically significant association.
+- Logistic regression to test the association between access_score and high_adaptivity.
+- Logistic regression can handle both categorical and numerical predictors.
+- The p-value associated with the access_score coefficient in the logistic regression output tells us whether there is a statistically significant association.
 
 **Interpretation:**
 
