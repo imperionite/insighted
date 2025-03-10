@@ -12,6 +12,21 @@
 
 ## Statistical analysis and Running the Logistic Regression Model
 
+Fisher's Exact Test (and Chi-square tests) are specifically designed for analyzing associations between categorical variables.
+`access_score`is a numericl variable. Therefore, Fisher's Exact Test is not appropriate for testing its association with `high_adaptivity`.
+
+**How We Tested the Association for Access Score**
+
+**Logistic Regression:**
+
+ogistic regression to test the association between access_score and high_adaptivity.
+-ogistic regression can handle both categorical and numerical predictors.
+-he p-value associated with the access_score coefficient in the logistic regression output tells us whether there is a statistically significant association.
+
+**Interpretation:**
+
+As noted, the p-value for access_score in the logistic regression summary was very small (1.78e-09), indicating a highly significant association.
+
 
 ### Digital Literacy and High Adaptivity
 
