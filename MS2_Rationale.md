@@ -102,6 +102,7 @@ The primary goal is to determine a reasonable "base meal price" based on histori
 8. **Base Meal Price Calculation**:
    - Calculate the base meal price per year by multiplying the weight of each category by its average price per kilogram and summing these values.
    - The formula is as follows:
+     
      $$
      \text{Base Meal Price} = 
      \left(\frac{\text{Protein Weight}}{1000} \times \text{Protein Price}\right) + 
@@ -110,6 +111,7 @@ The primary goal is to determine a reasonable "base meal price" based on histori
      \left(\frac{\text{Fruit Weight}}{1000} \times \text{Fruit Price}\right) + 
      \left(\frac{\text{Oils and Condiments Weight}}{1000} \times \text{Oils and Condiments Price}\right)
      $$
+     
 
 9. **Scaling the Base Meal Price**:
    - Apply a scaling factor to account for overhead costs, markup, and other production expenses.
