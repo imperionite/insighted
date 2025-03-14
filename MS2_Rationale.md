@@ -160,110 +160,9 @@ Thus, the recommended daily meal allowance for one meal would be rounded to 150 
 * **Price per Kilogram:** Converting all prices to a "per kilogram" basis allows for consistent comparisons across different units of measurement.
 * **Latest Year:** The latest year's price is used as the recommendation, as it reflects the most current market conditions.
 
-```mermaid
-flowchart TD
-    subgraph Input["Input Data"]
-        CSV1["food_prices_ph_cleaned.csv"]
-        CSV2["employees_details_cleaned.csv"]
-    end
-    
-    subgraph Processing["Data Processing"]
-        Clean["Data Cleaning
-        • Date formatting
-        • Unit conversion
-        • NA handling"]
-        
-        Cat["Category Assignment
-        • Protein
-        • Carbohydrate
-        • Vegetable
-        • Fruit
-        • Oils & Condiments"]
-        
-        Price["Price Standardization
-        • Per kg conversion
-        • Missing value imputation"]
-    end
-    
-    subgraph Calculation["Base Price Calculation"]
-        Comp["Meal Composition
-        • Protein: 175g
-        • Carbohydrate: 250g
-        • Vegetable: 100g
-        • Fruit: 150g
-        • Oils: 10g"]
-        
-        Calc["Price Computation
-        Weight × Category Price ÷ 1000"]
-        
-        Scale["Final Adjustment
-        Base Price × 3.8"]
-    end
-    
-    CSV1 --> Clean
-    CSV2 --> Clean
-    Clean --> Cat
-    Cat --> Price
-    Price --> Comp
-    Comp --> Calc
-    Calc --> Scale
-    
-    style Input fill:#f9f,stroke:#333,color:#000
-    style Processing fill:#bbf,stroke:#333,color:#000
-    style Calculation fill:#bfb,stroke:#333,color:#000
-
-```
-
 3. **Inflation-Adjusted Meal Allowance (Option 2):**
-      
-```mermaid
-flowchart TD
-    subgraph Input["Input Data"]
-        direction TB
-        Base["Base Meal Allowance"]
-        CPI["CPI Data (2018=100)"]
-    end
-    
-    subgraph Processing["Data Processing"]
-        direction TB
-        Rates["Calculate Inflation Rates"]
-        CPI_Adjust["CPI Adjustment"]
-        COLA_Adjust["COLA Adjustment"]
-    end
-    
-    subgraph Adjustments["Adjustment Mechanisms"]
-        direction TB
-        CPI_Calc["Direct CPI Adjustment
-        (1 + Inflation_Rate)"]
-        COLA_Calc["COLA Adjustment
-        • 80% of Inflation Rate
-        • Max 5% Cap"]
-    end
-    
-    subgraph Output["Final Outputs"]
-        direction TB
-        CPI_Out["Adjusted Allowance (CPI)"]
-        COLA_Out["Adjusted Allowance (COLA)"]
-    end
-    
-    Base --> CPI_Adjust
-    CPI --> Rates
-    Rates --> CPI_Calc
-    Rates --> COLA_Calc
-    CPI_Calc --> CPI_Out
-    COLA_Calc --> COLA_Out
-    
-    style Input fill:#f9f,stroke:#333,color:#000
-    style Processing fill:#bbf,stroke:#333,color:#000
-    style Adjustments fill:#bfb,stroke:#333,color:#000
-    style Output fill:#ffb,stroke:#333,color:#000
-```
-
-### Detailed Description of Inflation-Adjusted Meal Allowance Modeling
 
 The inflation-adjusted meal allowance model extends the base meal price model by incorporating two distinct adjustment mechanisms: Consumer Price Index (CPI) and Cost of Living Adjustment (COLA). The computation builds on the previously developed Base Meal Price model and incorporates inflationary trends to ensure fair adjustments in meal allowances over time.
-
----
 
 ### **1. Data Preparation**
 The process begins by preparing CPI data:
@@ -278,12 +177,8 @@ The process begins by preparing CPI data:
      $$
    - For the base year (2018), where no previous CPI exists, the inflation rate is set to 0.
 
----
-
 ### **2. Base Meal Allowance**
 The base meal allowance (`base_allowance`) is derived from the previously computed Base Meal Price model, scaled to PHP 250 as a daily allowance. This serves as the starting point for adjustments.
-
----
 
 ### **3. Adjusted Allowance Using CPI**
 The first adjustment method uses the inflation rate derived from CPI:
@@ -297,8 +192,6 @@ The first adjustment method uses the inflation rate derived from CPI:
      
 2. **Rationale**:
    - This approach ensures that the meal allowance reflects changes in purchasing power due to inflation, maintaining its real value over time.
-
----
 
 ### **4. Adjusted Allowance Using COLA**
 The second adjustment method incorporates a Cost of Living Adjustment (COLA) rate:
@@ -320,8 +213,6 @@ The second adjustment method incorporates a Cost of Living Adjustment (COLA) rat
 
 3. **Rationale**:
    - This approach balances inflationary adjustments with budget constraints by limiting excessive increases in allowances.
-
----
 
 ### **5. Combined Output**
 The final dataset (`allowance_data`) includes the following columns for each year:
