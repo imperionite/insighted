@@ -69,6 +69,62 @@ The project methodology consists of the following steps:
 2. **Base Meal Price Model Development (Option 1):**
 The primary goal is to determine a reasonable "base meal price" based on historical food prices in the Philippines. This price reflects the cost of the raw ingredients needed to prepare a basic meal.
 
+
+### Option 1: Meal Price Model Development
+
+```mermaid
+flowchart TD
+    subgraph Input["Input Data"]
+        CSV1["food_prices_ph_cleaned.csv"]
+        CSV2["employees_details_cleaned.csv"]
+    end
+    
+    subgraph Processing["Data Processing"]
+        Clean["Data Cleaning
+        • Date formatting
+        • Unit conversion
+        • NA handling"]
+        
+        Cat["Category Assignment
+        • Protein
+        • Carbohydrate
+        • Vegetable
+        • Fruit
+        • Oils & Condiments"]
+        
+        Price["Price Standardization
+        • Per kg conversion
+        • Missing value imputation"]
+    end
+    
+    subgraph Calculation["Base Price Calculation"]
+        Comp["Meal Composition
+        • Protein: 175g
+        • Carbohydrate: 250g
+        • Vegetable: 100g
+        • Fruit: 150g
+        • Oils: 10g"]
+        
+        Calc["Price Computation
+        Weight × Category Price ÷ 1000"]
+        
+        Scale["Final Adjustment
+        Base Price × 3.8"]
+    end
+    
+    CSV1 --> Clean
+    CSV2 --> Clean
+    Clean --> Cat
+    Cat --> Price
+    Price --> Comp
+    Comp --> Calc
+    Calc --> Scale
+    
+    style Input fill:#f9f,stroke:#333,color:#000
+    style Processing fill:#bbf,stroke:#333,color:#000
+    style Calculation fill:#bfb,stroke:#333,color:#000
+```
+
 **Data and Preprocessing:**
 
 1.  **Data Loading and Cleaning:**
@@ -97,9 +153,7 @@ The primary goal is to determine a reasonable "base meal price" based on histori
     * If a category's price is missing for a given year, it's filled with the previous year's price (if available). If the previous year's price is also missing, it's filled with 0.
     * The first year that has NA values for any category, has those NA values replaced with 0.
 
-**Base Meal Price Calculation:**
-
-8. **Base Meal Price Calculation**:
+**Base Meal Price Calculation**:
    - Calculate the base meal price per year by multiplying the weight of each category by its average price per kilogram and summing these values.
    - The formula is as follows:
      
@@ -161,6 +215,49 @@ Thus, the recommended daily meal allowance for one meal would be rounded to 150 
 * **Latest Year:** The latest year's price is used as the recommendation, as it reflects the most current market conditions.
 
 3. **Inflation-Adjusted Meal Allowance (Option 2):**
+
+```mermaid
+    flowchart TD
+    subgraph Input["Input Data"]
+        direction TB
+        Base["Base Meal Allowance"]
+        CPI["CPI Data (2018=100)"]
+    end
+    
+    subgraph Processing["Data Processing"]
+        direction TB
+        Rates["Calculate Inflation Rates"]
+        CPI_Adjust["CPI Adjustment"]
+        COLA_Adjust["COLA Adjustment"]
+    end
+    
+    subgraph Adjustments["Adjustment Mechanisms"]
+        direction TB
+        CPI_Calc["Direct CPI Adjustment
+        (1 + Inflation_Rate)"]
+        COLA_Calc["COLA Adjustment
+        • 80% of Inflation Rate
+        • Max 5% Cap"]
+    end
+    
+    subgraph Output["Final Outputs"]
+        direction TB
+        CPI_Out["Adjusted Allowance (CPI)"]
+        COLA_Out["Adjusted Allowance (COLA)"]
+    end
+    
+    Base --> CPI_Adjust
+    CPI --> Rates
+    Rates --> CPI_Calc
+    Rates --> COLA_Calc
+    CPI_Calc --> CPI_Out
+    COLA_Calc --> COLA_Out
+    
+    style Input fill:#f9f,stroke:#333,color:#000
+    style Processing fill:#bbf,stroke:#333,color:#000
+    style Adjustments fill:#bfb,stroke:#333,color:#000
+    style Output fill:#ffb,stroke:#333,color:#000
+```
 
 The inflation-adjusted meal allowance model extends the base meal price model by incorporating two distinct adjustment mechanisms: Consumer Price Index (CPI) and Cost of Living Adjustment (COLA). The computation builds on the previously developed Base Meal Price model and incorporates inflationary trends to ensure fair adjustments in meal allowances over time.
 
