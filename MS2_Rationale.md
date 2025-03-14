@@ -272,6 +272,7 @@ The process begins by preparing CPI data:
      $$
      \text{Inflation Rate} = \frac{\text{CPI}_{\text{current}} - \text{CPI}_{\text{previous}}}{\text{CPI}_{\text{previous}}}
      $$
+     
    - For the base year (2018), where no previous CPI exists, the inflation rate is set to 0.
 
 ### **2. Base Meal Allowance**
@@ -282,10 +283,12 @@ The first adjustment method uses the inflation rate derived from CPI:
 
 1. **Formula**:
    - The adjusted meal allowance for each year is computed as:
+   - 
      
      $$
      \text{Adjusted Allowance (CPI)} = \text{Base Allowance} \times (1 + \text{Inflation Rate})
      $$
+     
      
 2. **Rationale**:
    - This approach ensures that the meal allowance reflects changes in purchasing power due to inflation, maintaining its real value over time.
@@ -294,6 +297,7 @@ The first adjustment method uses the inflation rate derived from CPI:
 The second adjustment method incorporates a Cost of Living Adjustment (COLA) rate:
 1. **COLA Rate Calculation**:
    - The COLA rate is capped at a maximum of 5% annually and is calculated as:
+  
      
      $$
      \text{COLA Rate} = \min(\text{Inflation Rate} \times 0.8, 0.05)
