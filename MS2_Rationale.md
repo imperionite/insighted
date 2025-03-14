@@ -365,9 +365,10 @@ flowchart TD
     style Output fill:#e8f5e9,stroke:#1b5e20,color:#000000
 
 ```
-    - Develop a linear regression model to forecast future base meal prices.
-    - Evaluate the model's performance using R-squared and statistical significance tests.
-    - Visualize the historical and forecasted meal prices.
+
+- Develop a linear regression model to forecast future base meal prices.
+- Evaluate the model's performance using R-squared and statistical significance tests.
+- Visualize the historical and forecasted meal prices.
 
 6. **Data Visualization and Interpretation:**
     - Create visualizations using R and Jupyter Lab to present the results.
