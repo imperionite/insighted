@@ -17,7 +17,7 @@ The primary objectives of this project are as follows:
 - To create a predictive model to forecast future meal costs, enabling proactive budgeting.
 - To provide data-driven recommendations for optimizing MotorPH's employee meal allowance.
 
-## **Scope and Delimitations:**
+## **Scope and Delimitations**
 
 * The analysis is limited to the available datasets and economic indicators provided by the MO-IT100 course and MotorPH's data repository.
 * The predictive models are based on simple linear regression; more advanced models could potentially offer greater accuracy.
@@ -26,7 +26,7 @@ The primary objectives of this project are as follows:
 * The project does not account for regional variations in food prices or cost of living, unless regional data is specifically incorporated.
 * The project focuses on developing a simulation tool for MotorPH, and should not be seen as a perfect representation of real world market conditions.
 
-## **Assumptions and Justifications:**
+## **Assumptions and Justifications**
 
 * **Base Meal Price Model (Option 1): Scaling Factor Justification:**
     * The base meal price model calculates the cost of a basic meal using historical food price data. To account for the additional costs incurred when purchasing meals from restaurants or food establishments, a scaling factor of 3.8 was applied. This factor simulates the markup and overhead costs commonly associated with food service businesses.
