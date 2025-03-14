@@ -325,11 +325,51 @@ The final dataset (`allowance_data`) includes the following columns for each yea
 - `Adjusted_Allowance_COLA`: Adjusted allowance using capped COLA rate.
 
 4. **Predictive Model (Option 3):**
+
+```mermaid
+flowchart TD
+    subgraph Input["Input Data"]
+        Historical["Historical Meal Prices
+        (2018-2022)"]
+    end
+    
+    subgraph Processing["Model Processing"]
+        Model["Linear Regression
+        Base_Meal_Price ~ Year"]
+        Coeff["Extract Coefficients
+        • β₀ (Intercept)
+        • β₁ (Slope)"]
+    end
+    
+    subgraph Prediction["Prediction Phase"]
+        Future["Future Years
+        (2023-2024)"]
+        Forecast["Generate Forecasts
+        Using β₀ + β₁ × Year"]
+    end
+    
+    subgraph Output["Output"]
+        Results["Forecasted Prices
+        for Future Years"]
+    end
+    
+    Historical --> Model
+    Model --> Coeff
+    Coeff --> Forecast
+    Future --> Forecast
+    Forecast --> Results
+    
+    style Input fill:#e1f5fe,stroke:#01579b,color:#000000
+    style Processing fill:#fff3e0,stroke:#e65100,color:#000000
+    style Prediction fill:#f3e5f5,stroke:#4a148c,color:#000000
+    style Output fill:#e8f5e9,stroke:#1b5e20,color:#000000
+
+```
     - Develop a linear regression model to forecast future base meal prices.
     - Evaluate the model's performance using R-squared and statistical significance tests.
     - Visualize the historical and forecasted meal prices.
 
-5. **Data Visualization and Interpretation:**
+6. **Data Visualization and Interpretation:**
     - Create visualizations using R and Jupyter Lab to present the results.
     - Interpret the findings and provide actionable recommendations.
 
