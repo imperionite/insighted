@@ -67,12 +67,150 @@ The project methodology consists of the following steps:
     - Clean and preprocess the data using R and Jupyter Lab.
 
 2. **Base Meal Price Model Development (Option 1):**
-    - Define a specific meal composition (protein, carbohydrates, vegetables, fruits, oils).
-    - Calculate the unit prices of food items.
-    - Categorize food items into relevant food groups.
-    - Calculate the average price per food group per year.
-    - Develop a base meal price model by multiplying the average prices by the meal composition weights.
-    - Apply scaling factors to account for restaurant markups and overhead costs.
+The primary goal is to determine a reasonable "base meal price" based on historical food prices in the Philippines. This price reflects the cost of the raw ingredients needed to prepare a basic meal.
+
+**Data and Preprocessing:**
+
+1.  **Data Loading and Cleaning:**
+    * The code starts by loading two CSV files: `food_prices_ph_cleaned.csv` and `employees_details_cleaned.csv`.
+    * The `food_prices` dataset is the primary source for price information.
+    * The `Date` column is converted to a date format, and the `Price` column is ensured to be numeric.
+    * The data is filtered to include only records from 2019 onwards and to exclude rows where the `Unit` is "Unit".
+    * The year is extracted from the date and added as a column.
+
+2.  **Ingredient Categorization:**
+    * A list (`ingredient_categories`) is defined to group food items into categories: protein, carbohydrate, vegetables, fruits, and oils and condiments.
+    * The `Category` column is added to the `food_prices` data frame, assigning each food item to its corresponding category.
+
+3.  **Unit Price Calculation:**
+    * The code calculates the `UnitPrice_kg` (price per kilogram) for each food item.
+    * A specific conversion is applied for "Oil (cooking)" sold in "750 ML" units, assuming a density of 0.92 kg/L.
+    * Rows with NA values for the UnitPrice_kg column are removed.
+
+4.  **Yearly Average Prices:**
+    * The code calculates the average price per kilogram (`Avg_Price`) for each category and year.
+    * The `yearly_avg_prices` data frame is created, with years as rows and categories as columns.
+    * The data is then pivoted wider, so that each category has its own column.
+
+5.  **Imputation of Missing Values:**
+    * Missing values (NAs) in the `yearly_avg_prices` data frame are imputed.
+    * If a category's price is missing for a given year, it's filled with the previous year's price (if available). If the previous year's price is also missing, it's filled with 0.
+    * The first year that has NA values for any category, has those NA values replaced with 0.
+
+**Base Meal Price Calculation:**
+
+8. **Base Meal Price Calculation**:
+   - Calculate the base meal price per year by multiplying the weight of each category by its average price per kilogram and summing these values.
+   - The formula is as follows:
+     $$
+     \text{Base Meal Price} = 
+     \left(\frac{\text{Protein Weight}}{1000} \times \text{Protein Price}\right) + 
+     \left(\frac{\text{Carb Weight}}{1000} \times \text{Carb Price}\right) + 
+     \left(\frac{\text{Veg Weight}}{1000} \times \text{Veg Price}\right) + 
+     \left(\frac{\text{Fruit Weight}}{1000} \times \text{Fruit Price}\right) + 
+     \left(\frac{\text{Oils and Condiments Weight}}{1000} \times \text{Oils and Condiments Price}\right)
+     $$
+
+9. **Scaling the Base Meal Price**:
+   - Apply a scaling factor to account for overhead costs, markup, and other production expenses.
+   - The scaled base price is calculated by multiplying the latest base meal price by a scaling factor of 3.8.
+
+10. **Daily Meal Allowance**:
+    - Calculate the daily meal allowance by multiplying the scaled base price by the number of meals per day (in this case, one meal).
+    - Round the allowance to the nearest ten pesos for practicality.
+
+### Example Output
+
+Assuming the latest year is 2023 and the average prices for each category are as follows:
+
+| Year | Protein | Carbohydrate | Vegetable | Fruit | Oils and Condiments |
+|------|---------|--------------|-----------|-------|----------------------|
+| 2023 | 120     | 40           | 20        | 30    | 80                   |
+
+The base meal price calculation would be:
+
+$$
+\text{Base Meal Price} = 
+\left(\frac{175}{1000} \times 120\right) + 
+\left(\frac{250}{1000} \times 40\right) + 
+\left(\frac{100}{1000} \times 20\right) + 
+\left(\frac{150}{1000} \times 30\right) + 
+\left(\frac{10}{1000} \times 80\right)
+$$
+
+$$
+\text{Base Meal Price} = 21 + 10 + 2 + 4.5 + 0.8 = 38.3 \text{ PHP}
+$$
+
+Applying the scaling factor:
+
+$$
+\text{Scaled Base Meal Price} = 38.3 \times 3.8 = 145.54 \text{ PHP}
+$$
+
+Thus, the recommended daily meal allowance for one meal would be rounded to 150 PHP.
+
+**Logic and Rationale:**
+
+* **Representative Meal:** The pre-defined weights for each ingredient category represent a hypothetical "base meal." These weights can be adjusted to reflect different meal compositions.
+* **Averaging:** By using yearly average prices, the model smooths out short-term fluctuations in food prices.
+* **Imputation:** The imputation strategy ensures that all years have a `Base_Meal_Price` value, even if some category prices are missing. The strategy of using the previous years price, is a common practice for time series data. If there is no previous year, then a 0 value is used.
+* **Price per Kilogram:** Converting all prices to a "per kilogram" basis allows for consistent comparisons across different units of measurement.
+* **Latest Year:** The latest year's price is used as the recommendation, as it reflects the most current market conditions.
+
+```mermaid
+flowchart TD
+    subgraph Input["Input Data"]
+        CSV1["food_prices_ph_cleaned.csv"]
+        CSV2["employees_details_cleaned.csv"]
+    end
+    
+    subgraph Processing["Data Processing"]
+        Clean["Data Cleaning
+        • Date formatting
+        • Unit conversion
+        • NA handling"]
+        
+        Cat["Category Assignment
+        • Protein
+        • Carbohydrate
+        • Vegetable
+        • Fruit
+        • Oils & Condiments"]
+        
+        Price["Price Standardization
+        • Per kg conversion
+        • Missing value imputation"]
+    end
+    
+    subgraph Calculation["Base Price Calculation"]
+        Comp["Meal Composition
+        • Protein: 175g
+        • Carbohydrate: 250g
+        • Vegetable: 100g
+        • Fruit: 150g
+        • Oils: 10g"]
+        
+        Calc["Price Computation
+        Weight × Category Price ÷ 1000"]
+        
+        Scale["Final Adjustment
+        Base Price × 3.8"]
+    end
+    
+    CSV1 --> Clean
+    CSV2 --> Clean
+    Clean --> Cat
+    Cat --> Price
+    Price --> Comp
+    Comp --> Calc
+    Calc --> Scale
+    
+    style Input fill:#f9f,stroke:#333,color:#000
+    style Processing fill:#bbf,stroke:#333,color:#000
+    style Calculation fill:#bfb,stroke:#333,color:#000
+
+```
 
 3. **Inflation-Adjusted Meal Allowance (Option 2):**
     - Calculate annual inflation rates using CPI data.
