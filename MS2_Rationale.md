@@ -215,10 +215,122 @@ flowchart TD
 ```
 
 3. **Inflation-Adjusted Meal Allowance (Option 2):**
-    - Calculate annual inflation rates using CPI data.
-    - Implement an inflation-adjusted meal allowance model.
-    - Apply a proxy COLA based on 80% of the CPI with a 5% cap.
-    - Compare the results of both methods.
+      
+```mermaid
+flowchart TD
+    subgraph Input["Input Data"]
+        direction TB
+        Base["Base Meal Allowance"]
+        CPI["CPI Data (2018=100)"]
+    end
+    
+    subgraph Processing["Data Processing"]
+        direction TB
+        Rates["Calculate Inflation Rates"]
+        CPI_Adjust["CPI Adjustment"]
+        COLA_Adjust["COLA Adjustment"]
+    end
+    
+    subgraph Adjustments["Adjustment Mechanisms"]
+        direction TB
+        CPI_Calc["Direct CPI Adjustment
+        (1 + Inflation_Rate)"]
+        COLA_Calc["COLA Adjustment
+        • 80% of Inflation Rate
+        • Max 5% Cap"]
+    end
+    
+    subgraph Output["Final Outputs"]
+        direction TB
+        CPI_Out["Adjusted Allowance (CPI)"]
+        COLA_Out["Adjusted Allowance (COLA)"]
+    end
+    
+    Base --> CPI_Adjust
+    CPI --> Rates
+    Rates --> CPI_Calc
+    Rates --> COLA_Calc
+    CPI_Calc --> CPI_Out
+    COLA_Calc --> COLA_Out
+    
+    style Input fill:#f9f,stroke:#333,color:#000
+    style Processing fill:#bbf,stroke:#333,color:#000
+    style Adjustments fill:#bfb,stroke:#333,color:#000
+    style Output fill:#ffb,stroke:#333,color:#000
+```
+
+### Detailed Description of Inflation-Adjusted Meal Allowance Modeling
+
+The inflation-adjusted meal allowance model extends the base meal price model by incorporating two distinct adjustment mechanisms: Consumer Price Index (CPI) and Cost of Living Adjustment (COLA). The computation builds on the previously developed Base Meal Price model and incorporates inflationary trends to ensure fair adjustments in meal allowances over time.
+
+---
+
+### **1. Data Preparation**
+The process begins by preparing CPI data:
+1. **CPI Data Input**:
+   - A dataset (`cpi_data`) is created with annual CPI values from 2018 to 2022 (base year: 2018 = 100).
+   - The CPI values are sourced from official statistics (e.g., PSA).
+2. **Inflation Rate Calculation**:
+   - The inflation rate for each year is calculated using the formula:
+     
+     $$
+     \text{Inflation Rate} = \frac{\text{CPI}_{\text{current}} - \text{CPI}_{\text{previous}}}{\text{CPI}_{\text{previous}}}
+     $$
+   - For the base year (2018), where no previous CPI exists, the inflation rate is set to 0.
+
+---
+
+### **2. Base Meal Allowance**
+The base meal allowance (`base_allowance`) is derived from the previously computed Base Meal Price model, scaled to PHP 250 as a daily allowance. This serves as the starting point for adjustments.
+
+---
+
+### **3. Adjusted Allowance Using CPI**
+The first adjustment method uses the inflation rate derived from CPI:
+
+1. **Formula**:
+   - The adjusted meal allowance for each year is computed as:
+     
+     $$
+     \text{Adjusted Allowance (CPI)} = \text{Base Allowance} \times (1 + \text{Inflation Rate})
+     $$
+     
+2. **Rationale**:
+   - This approach ensures that the meal allowance reflects changes in purchasing power due to inflation, maintaining its real value over time.
+
+---
+
+### **4. Adjusted Allowance Using COLA**
+The second adjustment method incorporates a Cost of Living Adjustment (COLA) rate:
+1. **COLA Rate Calculation**:
+   - The COLA rate is capped at a maximum of 5% annually and is calculated as:
+     
+     $$
+     \text{COLA Rate} = \min(\text{Inflation Rate} \times 0.8, 0.05)
+     $$
+     
+   - This means that only 80% of the inflation rate is considered, with an upper limit of 5%.
+  
+2. **Formula**:
+   - The adjusted meal allowance using COLA is computed as:
+     
+     $$
+     \text{Adjusted Allowance (COLA)} = \text{Base Allowance} \times (1 + \text{COLA Rate})
+     $$
+
+3. **Rationale**:
+   - This approach balances inflationary adjustments with budget constraints by limiting excessive increases in allowances.
+
+---
+
+### **5. Combined Output**
+The final dataset (`allowance_data`) includes the following columns for each year:
+- `Year`: The corresponding year.
+- `CPI`: Consumer Price Index for the year.
+- `Inflation_Rate`: Annual inflation rate derived from CPI.
+- `COLA_Rate`: Adjusted COLA rate based on inflation.
+- `Adjusted_Allowance_CPI`: Adjusted allowance using full inflation rate.
+- `Adjusted_Allowance_COLA`: Adjusted allowance using capped COLA rate.
 
 4. **Predictive Model (Option 3):**
     - Develop a linear regression model to forecast future base meal prices.
