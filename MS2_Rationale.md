@@ -28,22 +28,22 @@ The primary objectives of this project are as follows:
 
 ## **Assumptions and Justifications**
 
-* **Base Meal Price Model (Option 1): Scaling Factor Justification:**
+* **Base Meal Price Model (Option 1): Scaling Factor Justification**
     * The base meal price model calculates the cost of a basic meal using historical food price data. To account for the additional costs incurred when purchasing meals from restaurants or food establishments, a scaling factor of 3.8 was applied. This factor simulates the markup and overhead costs commonly associated with food service businesses.
     * While this value is an assumption, it is informed by general industry knowledge, where restaurant markups typically range from 2x to 4x the raw material cost.
     * The purpose of this scaling factor is to demonstrate the potential impact of overhead costs on the final recommended allowance. A sensitivity analysis, which would explore the effects of varying scaling factors, could provide further insights into this aspect of the model.
-* **Inflation-Adjusted Meal Allowance (Option 2): Proxy COLA Justification:**
+* **Inflation-Adjusted Meal Allowance (Option 2): Proxy COLA Justification**
     * The inflation-adjusted meal allowance model implements a proxy Cost of Living Adjustment (COLA) based on 80% of the Consumer Price Index (CPI) with a 5% cap. This proxy COLA represents a conservative approach to adjusting the meal allowance, reflecting the reality that companies may not always fully adjust for inflation due to budgetary constraints.
     * The 80% factor and the 5% cap are intended to model a possible company policy and demonstrate the differences between a full CPI adjustment and a more budget-conscious implementation. This approach is not intended to represent standard economic practice but rather to provide a practical tool for MotorPH to consider.
-* **Justification for Not Removing All Outliers:**
+* **Not Removing All Outliers Justification**
     * Upon examining the dataset, we noticed the presence of outliers that could potentially skew our analysis. To address this, we employed the Interquartile Range (IQR) method to identify and remove these outliers. This approach involves calculating the lower and upper bounds as `Q1 - 1.5 * IQR` and `Q3 + 1.5 * IQR`, respectively, where data points falling outside these bounds are considered outliers. We opted to remove outliers in a single pass to prevent over-manipulation of the data, which could lead to biased results. This strategy ensures that the cleaned dataset remains representative of the original data while minimizing the impact of extreme values. By limiting the removal to a single iteration, we preserved the integrity of the dataset and avoided eliminating legitimate data points that might become outliers after repeated iterations. This approach allowed us to maintain a balance between data cleanliness and representativeness, ensuring that our analysis reflects the true characteristics of the meal price data.
-* **Practical vs. Statistical Significance:**
+* **Practical vs. Statistical Significance**
     * While some of the statistical results may not be significant at the conventional 5% level, the findings still hold practical significance for MotorPH. For example, the predictive model provides a useful trend-based estimate of future meal costs, even if the precise values are subject to uncertainty.
     * The practical implications of these findings for MotorPH's budgeting and planning should be emphasized.
-* **Forward-Looking Perspective:**
+* **Forward-Looking Perspective**
     * The predictive model developed in this project provides a valuable forward-looking perspective for MotorPH. By forecasting future meal costs, the model enables proactive budgeting and planning.
     * While the forecasts are subject to limitations, they offer a useful tool for anticipating potential changes in meal costs.
-* **Simulation Context:**
+* **Simulation Context**
     * This project is fundamentally a simulation designed to provide MotorPH with a practical tool for meal allowance optimization. The models and methods employed are intended to illustrate how data analysis can inform decision-making in a real-world context.
     * The goal is to provide MotorPH with a starting point for further analysis and refinement.
 
