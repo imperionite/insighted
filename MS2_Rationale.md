@@ -1,14 +1,14 @@
-# **Meal Allowance Optimization: Price, Inflation, Prediction**
+# **Meal Allowance Optimization: Price, Inflation and Prediction**
 
-## **Abstract:**
+## **Abstract**
 
 _This project aims to develop data-driven recommendations for optimizing MotorPH's employee meal allowance. Utilizing datasets from the MO-IT100 course and [MotorPH's data repository](https://sites.google.com/mmdc.mcl.edu.ph/motorph/data-repository), the study evaluates three distinct models: (1) a base meal price model derived from historical food price data, (2) an inflation-adjusted allowance using the [Consumer Price Index (CPI)](https://psa.gov.ph/price-indices/cpi-ir?utm_source=chatgpt.com), and (3) a predictive model forecasting future meal costs. Using R and Jupyter Lab for data analysis and visualization, the project highlights the practical application of these tools in statistical modeling and decision support. [Key findings reveal a consistent increase in base meal prices, the impact of inflation on allowance adequacy](https://lattice.com/articles/how-inflation-affects-employee-compensation), and the upward trend of meal costs as forecasted by the predictive model. [The study provides actionable insights to help MotorPH make informed decisions about their employee meal allowance, ensuring it remains relevant and sustainable](https://edenredbenefits.com/is-a-meal-allowance-right-for-your-company/)._
 
-## **Introduction:**
+## **Introduction**
 
 [Employee meal allowances are essential elements of compensation packages](https://www.hubengage.com/employee-experience/significance-and-impact-of-employee-allowances/), directly influencing employee satisfaction and well-being. However, [fluctuating food prices and inflation can challenge the maintenance of their real value](https://www.shrm.org/topics-tools/flagships/all-things-work/the-wage-inflation-challenge----balancing-business-sustainabilit). This project [addresses the need for a data-driven approach to optimize MotorPH's employee meal allowance, ensuring its continued adequacy and relevance](https://business.doordash.com/en-us/resources/research-shows-meal-benefits-improve-employee-satisfaction). By leveraging [historical food price data and economic indicators, the study provides actionable insights and recommendations](https://psa.gov.ph/price-indices/cpi-ir?utm_source=chatgpt.com). The project employs R and Jupyter Lab as powerful tools for data analysis, visualization, and statistical modeling, demonstrating their practical utility in solving real-world business challenges.
 
-## **Objectives:**
+## **Objectives**
 
 The primary objectives of this project are as follows:
 
@@ -18,7 +18,7 @@ The primary objectives of this project are as follows:
 - To provide data-driven recommendations for optimizing MotorPH's employee meal allowance.
 - To demonstrate the use of R and Jupyter Lab for statistical analysis and decision support.
 
-## **Scope and Delimitation:**
+## **Scope and Delimitation**
 
 This project focuses on analyzing historical food price data and economic indicators to optimize MotorPH's employee meal allowance. The scope of the study includes:
 
@@ -33,7 +33,7 @@ The delimitations of the study are as follows:
 - The study assumes a specific meal composition for the base meal price model.
 - The proxy COLA implementation assumes 80% of CPI with a 5% cap.
 
-## **Significance of the Study:**
+## **Significance of the Study**
 
 This study is significant for the following reasons:
 
@@ -43,7 +43,7 @@ This study is significant for the following reasons:
 - [It contributes to understanding the impact of food prices and inflation on employee compensation](https://www.shrm.org/topics-tools/flagships/all-things-work/the-wage-inflation-challenge----balancing-business-sustainabilit).
 - It offers a template that other companies can adapt to evaluate their employee meal allowance.
 
-## **Project Methodology:**
+## **Methods**
 
 The project methodology consists of the following steps:
 
@@ -75,7 +75,7 @@ The project methodology consists of the following steps:
     - Create visualizations using R and Jupyter Lab to present the results.
     - Interpret the findings and provide actionable recommendations.
 
-## **Results, Findings, and Interpretation:**
+## **Findings and Interpretation**
 
 - **Base Meal Price Model (Option 1):**
     - The analysis of historical food price data from 2019 to 2022 revealed a consistent upward trend in the calculated base meal price.
@@ -114,6 +114,6 @@ The project methodology consists of the following steps:
     - The residual standard error was 4.127 on 2 degrees of freedom.
     - The F-statistic was 12.36 on 1 and 2 DF, p-value: 0.07227.
 
-## **Conclusion:**
+## **Conclusion**
 
 This project successfully developed data-driven recommendations for optimizing MotorPH's employee meal allowance. The three models presented offer MotorPH a comprehensive understanding of meal cost trends, the impact of inflation, and future meal cost forecasts. The findings suggest that MotorPH should consider adopting an inflation-adjusted allowance model while utilizing the predictive model for proactive budgeting. Further research could explore more advanced predictive models and regional variations in meal costs.
