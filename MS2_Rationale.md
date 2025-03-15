@@ -188,10 +188,10 @@ flowchart TD
 
 #### **Methodology**
 - Compute annual inflation rates:
-  
-  $$
-  \text{Inflation Rate} = \frac{\text{CPI}_{\text{current}} - \text{CPI}_{\text{previous}}}{\text{CPI}_{\text{previous}}}
-  $$
+
+    ```java
+        Inflation Rate = (CPI_current - CPI_previous) / CPI_previous
+     ```
   
 - Adjust the meal allowance using:
   - **CPI Method:** Directly applies the inflation rate.
@@ -242,19 +242,15 @@ flowchart TD
 
 #### **Methodology**
 - Fit a linear regression model:
-  
-  $$
-  \text{Base Meal Price} = β₀ + β₁ \times \text{Year}
-  $$
+
+    ```java
+      Base Meal Price = β₀ + β₁ × Year
+    ```
   
 - Use historical meal prices (2018-2022) to predict future costs.
 - Evaluate model performance using **R-squared** and statistical tests.
 - Generate **forecasted meal prices** for 2023-2024.
 
-### **5. Data Visualization & Interpretation**
-- Present results through **interactive plots and dashboards** in R and Jupyter Lab.
-- Compare different methodologies and their impact on meal allowance recommendations.
-- Provide **actionable insights** for MotorPH’s decision-making.
 
 ## **Findings and Interpretation**
 
