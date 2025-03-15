@@ -298,7 +298,7 @@ flowchart TD
 - The **R-squared value (86.07%)** suggests a strong model fit, but the **p-value (0.0723)** indicates **marginal statistical significance**.
 - Due to the **small sample size**, results should be interpreted **with caution**.
 
-### **4. Overall Interpretation and Recommendations**
+### **Interpretation and Recommendations**
 
 #### **Key Takeaways:**
 - The **upward trend in meal prices** supports the need for **regular allowance adjustments**.  
@@ -310,6 +310,55 @@ flowchart TD
 ### **Final Recommendation**
 MotorPH can **adopt a hybrid approach**, using CPI and COLA adjustments for **short-term planning** while incorporating predictive modeling for **future projections and budget planning**.
 
+
+### **Determination of Perceived Budget Allocation for Staff Meal Allowance**
+
+This analysis aims to determine a perceived budget allocation for staff meal allowances at MotorPH based on existing employee allowances. Using statistical analysis, we estimate an appropriate meal allowance while considering employees' existing benefits and salary structures.
+
+## Methodology
+The approach consists of the following key steps:
+
+### 1. Analyze Existing Allowances
+- The dataset includes employee allowance details such as:
+  - **Rice Subsidy**
+  - **Phone Allowance**
+  - **Clothing Allowance**
+- The mean and median values for each allowance type are calculated to understand the central tendency of current benefits.
+
+### 2. Establish a Relative Percentage/Range
+- A new metric, **Total Existing Allowance**, is calculated as:
+  \[
+  \text{Total Existing Allowance} = \text{Rice Subsidy} + \text{Phone Allowance} + \text{Clothing Allowance}
+  \]
+- The **Allowance Percentage** relative to Basic Salary is computed:
+  \[
+  \text{Allowance Percentage} = \frac{\text{Total Existing Allowance}}{\text{Basic Salary}}
+  \]
+- Statistical summaries (mean, median, Q1, Q3) for the Allowance Percentage are generated to understand its distribution.
+
+### 3. Apply the Percentage to Estimate Meal Allowance
+- The **Q1 (25th percentile) of the Allowance Percentage** is selected for conservative meal allowance estimation:
+  \[
+  \text{Estimated Meal Allowance} = \text{Basic Salary} \times \text{Q1 Percentage}
+  \]
+- The **Estimated Daily Meal Allowance** is then computed assuming 26 working days per month:
+  \[
+  \text{Estimated Daily Meal Allowance} = \frac{\text{Estimated Meal Allowance}}{26}
+  \]
+
+### 4. Calculate Total Budget and Fixed Daily Allowance
+- The total estimated budget for meal allowances is derived by summing up all employee meal allowances.
+- The **mode** and **median** of the daily allowances are determined.
+- The **Recommended Fixed Daily Allowance** is set as the rounded median daily meal allowance for practical implementation.
+
+### 5. Comparison and Adjustment
+- The **Recommended Fixed Daily Allowance** is compared against a forecasted meal price (e.g., PHP 250 per day).
+- If the recommended amount is lower than the forecasted meal price, adjustments may be necessary.
+
+## Key Findings
+- The estimated **total budget** for meal allowances is calculated.
+- The **median daily allowance** and **mode daily allowance** are determined.
+- The **recommended fixed daily allowance** is evaluated against the forecasted meal price to ensure adequacy.
 
 ## **Conclusion**  
 
