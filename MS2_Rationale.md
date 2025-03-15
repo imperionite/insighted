@@ -26,26 +26,31 @@ The primary objectives of this project are as follows:
 * The project does not account for regional variations in food prices or cost of living, unless regional data is specifically incorporated.
 * The project focuses on developing a simulation tool for MotorPH, and should not be seen as a perfect representation of real world market conditions.
 
-## **Assumptions and Justifications**
+## **Assumptions and Justifications**  
 
-* **Base Meal Price Model (Option 1): Scaling Factor Justification**
-    * The base meal price model calculates the cost of a basic meal using historical food price data. To account for the additional costs incurred when purchasing meals from restaurants or food establishments, a scaling factor of 3.8 was applied. This factor simulates the markup and overhead costs commonly associated with food service businesses.
-    * While this value is an assumption, it is informed by general industry knowledge, where restaurant markups typically range from 2x to 4x the raw material cost.
-    * The purpose of this scaling factor is to demonstrate the potential impact of overhead costs on the final recommended allowance. A sensitivity analysis, which would explore the effects of varying scaling factors, could provide further insights into this aspect of the model.
-* **Inflation-Adjusted Meal Allowance (Option 2): Proxy COLA Justification**
-    * The inflation-adjusted meal allowance model implements a proxy Cost of Living Adjustment (COLA) based on 80% of the Consumer Price Index (CPI) with a 5% cap. This proxy COLA represents a conservative approach to adjusting the meal allowance, reflecting the reality that companies may not always fully adjust for inflation due to budgetary constraints.
-    * The 80% factor and the 5% cap are intended to model a possible company policy and demonstrate the differences between a full CPI adjustment and a more budget-conscious implementation. This approach is not intended to represent standard economic practice but rather to provide a practical tool for MotorPH to consider.
-* **Not Removing All Outliers Justification**
-    * Upon examining the dataset, we noticed the presence of outliers that could potentially skew our analysis. To address this, we employed the Interquartile Range (IQR) method to identify and remove these outliers. This approach involves calculating the lower and upper bounds as `Q1 - 1.5 * IQR` and `Q3 + 1.5 * IQR`, respectively, where data points falling outside these bounds are considered outliers. We opted to remove outliers in a single pass to prevent over-manipulation of the data, which could lead to biased results. This strategy ensures that the cleaned dataset remains representative of the original data while minimizing the impact of extreme values. By limiting the removal to a single iteration, we preserved the integrity of the dataset and avoided eliminating legitimate data points that might become outliers after repeated iterations. This approach allowed us to maintain a balance between data cleanliness and representativeness, ensuring that our analysis reflects the true characteristics of the meal price data.
-* **Practical vs. Statistical Significance**
-    * While some of the statistical results may not be significant at the conventional 5% level, the findings still hold practical significance for MotorPH. For example, the predictive model provides a useful trend-based estimate of future meal costs, even if the precise values are subject to uncertainty.
-    * The practical implications of these findings for MotorPH's budgeting and planning should be emphasized.
-* **Forward-Looking Perspective**
-    * The predictive model developed in this project provides a valuable forward-looking perspective for MotorPH. By forecasting future meal costs, the model enables proactive budgeting and planning.
-    * While the forecasts are subject to limitations, they offer a useful tool for anticipating potential changes in meal costs.
-* **Simulation Context**
-    * This project is fundamentally a simulation designed to provide MotorPH with a practical tool for meal allowance optimization. The models and methods employed are intended to illustrate how data analysis can inform decision-making in a real-world context.
-    * The goal is to provide MotorPH with a starting point for further analysis and refinement.
+#### **Base Meal Price Model (Option 1): Scaling Factor Justification**  
+- A **scaling factor of 3.8** was applied to simulate restaurant markups and overhead costs, aligning with industry markups (typically **2x to 4x** raw food costs).  
+- This factor highlights the potential impact of overhead on meal allowances. A sensitivity analysis could further explore varying markup scenarios.  
+
+#### **Inflation-Adjusted Meal Allowance (Option 2): Proxy COLA Justification**  
+- The **proxy Cost of Living Adjustment (COLA)** applies **80% of CPI with a 5% cap**, reflecting a **budget-conscious** approach rather than a full inflation adjustment.  
+- This model demonstrates an alternative **realistic corporate policy** balancing employee support and financial constraints.  
+
+#### **Outlier Treatment Justification**  
+- **Interquartile Range (IQR) method** was used to remove extreme values, ensuring a **representative dataset** without excessive manipulation.  
+- Outliers were **filtered in a single pass** to **preserve data integrity** and avoid distorting legitimate trends.  
+
+#### **Practical vs. Statistical Significance**  
+- Some statistical results, while not meeting the **5% significance threshold**, remain **practically relevant** for budgeting and planning.  
+- The predictive model offers **trend-based insights**, useful for strategic decision-making despite inherent uncertainty.  
+
+#### **Forward-Looking Perspective**  
+- The **predictive model forecasts future meal costs**, enabling **proactive budgeting** for MotorPH.  
+- While subject to limitations, it provides a **valuable tool for anticipating cost fluctuations**.  
+
+#### **Simulation Context**  
+- This project serves as a **simulation** to guide **meal allowance optimization**.  
+- The models provide **a foundation for further analysis and refinement**, helping MotorPH make **data-driven decisions**.  
 
 ## **Significance of the Study**
 
@@ -59,18 +64,15 @@ This study is significant for the following reasons:
 
 ## **Methods**
 
-The project methodology consists of the following steps:
+This study follows a structured approach to ensure accurate and meaningful results:
 
-1. **Data Acquisition and Cleaning:**
-    - Obtain food price datasets from the MO-IT100 course and MotorPH's data repository.
-    - Obtain CPI data from the Philippine Statistics Authority (PSA).
-    - Clean and preprocess the data using R and Jupyter Lab.
+### **1. Data Acquisition & Cleaning**
+- Obtain food price datasets from the MO-IT100 course and MotorPH's data repository.
+- Collect Consumer Price Index (CPI) data from the Philippine Statistics Authority (PSA).
+- Clean and preprocess data in R and Jupyter Lab.
 
-2. **Base Meal Price Model Development (Option 1):**
-The primary goal is to determine a reasonable "base meal price" based on historical food prices in the Philippines. This price reflects the cost of the raw ingredients needed to prepare a basic meal.
-
-
-### Option 1: Meal Price Model Development
+### **2. Base Meal Price Model (Option 1)**
+The goal is to establish a "base meal price" reflecting the cost of essential ingredients over time.
 
 ```mermaid
 flowchart TD
@@ -125,99 +127,24 @@ flowchart TD
     style Calculation fill:#bfb,stroke:#333,color:#000
 ```
 
-**Data and Preprocessing:**
+#### **Data Preprocessing & Computation**
+- Load and clean `food_prices_ph_cleaned.csv` and `employees_details_cleaned.csv`.
+- Assign food items to categories (protein, carbohydrate, vegetables, fruits, oils & condiments).
+- Standardize prices per kilogram, handle missing values, and compute yearly category averages.
+- Compute the **base meal price** as:
+  
+  $$
+  \text{Base Meal Price} = \sum \left(\frac{\text{Category Weight}}{1000} \times \text{Category Price}\right)
+  $$
+  
+- Apply a **scaling factor of 3.8** to reflect overhead costs.
+- Determine the **daily meal allowance** by rounding the final value to the nearest PHP 10.
 
-1.  **Data Loading and Cleaning:**
-    * The code starts by loading two CSV files: `food_prices_ph_cleaned.csv` and `employees_details_cleaned.csv`.
-    * The `food_prices` dataset is the primary source for price information.
-    * The `Date` column is converted to a date format, and the `Price` column is ensured to be numeric.
-    * The data is filtered to include only records from 2019 onwards and to exclude rows where the `Unit` is "Unit".
-    * The year is extracted from the date and added as a column.
-
-2.  **Ingredient Categorization:**
-    * A list (`ingredient_categories`) is defined to group food items into categories: protein, carbohydrate, vegetables, fruits, and oils and condiments.
-    * The `Category` column is added to the `food_prices` data frame, assigning each food item to its corresponding category.
-
-3.  **Unit Price Calculation:**
-    * The code calculates the `UnitPrice_kg` (price per kilogram) for each food item.
-    * A specific conversion is applied for "Oil (cooking)" sold in "750 ML" units, assuming a density of 0.92 kg/L.
-    * Rows with NA values for the UnitPrice_kg column are removed.
-
-4.  **Yearly Average Prices:**
-    * The code calculates the average price per kilogram (`Avg_Price`) for each category and year.
-    * The `yearly_avg_prices` data frame is created, with years as rows and categories as columns.
-    * The data is then pivoted wider, so that each category has its own column.
-
-5.  **Imputation of Missing Values:**
-    * Missing values (NAs) in the `yearly_avg_prices` data frame are imputed.
-    * If a category's price is missing for a given year, it's filled with the previous year's price (if available). If the previous year's price is also missing, it's filled with 0.
-    * The first year that has NA values for any category, has those NA values replaced with 0.
-
-**Base Meal Price Calculation**:
-   - Calculate the base meal price per year by multiplying the weight of each category by its average price per kilogram and summing these values.
-   - The formula is as follows:
-     
-     $$
-     \text{Base Meal Price} = 
-     \left(\frac{\text{Protein Weight}}{1000} \times \text{Protein Price}\right) + 
-     \left(\frac{\text{Carb Weight}}{1000} \times \text{Carb Price}\right) + 
-     \left(\frac{\text{Veg Weight}}{1000} \times \text{Veg Price}\right) + 
-     \left(\frac{\text{Fruit Weight}}{1000} \times \text{Fruit Price}\right) + 
-     \left(\frac{\text{Oils and Condiments Weight}}{1000} \times \text{Oils and Condiments Price}\right)
-     $$
-     
-
-9. **Scaling the Base Meal Price**:
-   - Apply a scaling factor to account for overhead costs, markup, and other production expenses.
-   - The scaled base price is calculated by multiplying the latest base meal price by a scaling factor of 3.8.
-
-10. **Daily Meal Allowance**:
-    - Calculate the daily meal allowance by multiplying the scaled base price by the number of meals per day (in this case, one meal).
-    - Round the allowance to the nearest ten pesos for practicality.
-
-### Example Output
-
-Assuming the latest year is 2023 and the average prices for each category are as follows:
-
-| Year | Protein | Carbohydrate | Vegetable | Fruit | Oils and Condiments |
-|------|---------|--------------|-----------|-------|----------------------|
-| 2023 | 120     | 40           | 20        | 30    | 80                   |
-
-The base meal price calculation would be:
-
-$$
-\text{Base Meal Price} = 
-\left(\frac{175}{1000} \times 120\right) + 
-\left(\frac{250}{1000} \times 40\right) + 
-\left(\frac{100}{1000} \times 20\right) + 
-\left(\frac{150}{1000} \times 30\right) + 
-\left(\frac{10}{1000} \times 80\right)
-$$
-
-$$
-\text{Base Meal Price} = 21 + 10 + 2 + 4.5 + 0.8 = 38.3 \text{ PHP}
-$$
-
-Applying the scaling factor:
-
-$$
-\text{Scaled Base Meal Price} = 38.3 \times 3.8 = 145.54 \text{ PHP}
-$$
-
-Thus, the recommended daily meal allowance for one meal would be rounded to 150 PHP.
-
-**Logic and Rationale:**
-
-* **Representative Meal:** The pre-defined weights for each ingredient category represent a hypothetical "base meal." These weights can be adjusted to reflect different meal compositions.
-* **Averaging:** By using yearly average prices, the model smooths out short-term fluctuations in food prices.
-* **Imputation:** The imputation strategy ensures that all years have a `Base_Meal_Price` value, even if some category prices are missing. The strategy of using the previous years price, is a common practice for time series data. If there is no previous year, then a 0 value is used.
-* **Price per Kilogram:** Converting all prices to a "per kilogram" basis allows for consistent comparisons across different units of measurement.
-* **Latest Year:** The latest year's price is used as the recommendation, as it reflects the most current market conditions.
-
-3. **Inflation-Adjusted Meal Allowance (Option 2):**
+### **3. Inflation-Adjusted Meal Allowance (Option 2)**
+This model refines the base meal price using CPI and Cost of Living Adjustments (COLA).
 
 ```mermaid
-    flowchart TD
+flowchart TD
     subgraph Input["Input Data"]
         direction TB
         Base["Base Meal Allowance"]
@@ -259,72 +186,20 @@ Thus, the recommended daily meal allowance for one meal would be rounded to 150 
     style Output fill:#ffb,stroke:#333,color:#000
 ```
 
-The inflation-adjusted meal allowance model extends the base meal price model by incorporating two distinct adjustment mechanisms: Consumer Price Index (CPI) and Cost of Living Adjustment (COLA). The computation builds on the previously developed Base Meal Price model and incorporates inflationary trends to ensure fair adjustments in meal allowances over time.
-
-### **1. Data Preparation**
-The process begins by preparing CPI data:
-1. **CPI Data Input**:
-   - A dataset (`cpi_data`) is created with annual CPI values from 2018 to 2022 (base year: 2018 = 100).
-   - The CPI values are sourced from official statistics (e.g., PSA).
-2. **Inflation Rate Calculation**:
-   - The inflation rate for each year is calculated using the formula:
-     
-     $$
-     \text{Inflation Rate} = \frac{\text{CPI}_{\text{current}} - \text{CPI}_{\text{previous}}}{\text{CPI}_{\text{previous}}}
-     $$
-     
-   - For the base year (2018), where no previous CPI exists, the inflation rate is set to 0.
-
-### **2. Base Meal Allowance**
-The base meal allowance (`base_allowance`) is derived from the previously computed Base Meal Price model, scaled to PHP 250 as a daily allowance. This serves as the starting point for adjustments.
-
-### **3. Adjusted Allowance Using CPI**
-The first adjustment method uses the inflation rate derived from CPI:
-
-1. **Formula**:
-   - The adjusted meal allowance for each year is computed as:
-   - 
-     
-     $$
-     \text{Adjusted Allowance (CPI)} = \text{Base Allowance} \times (1 + \text{Inflation Rate})
-     $$
-     
-     
-2. **Rationale**:
-   - This approach ensures that the meal allowance reflects changes in purchasing power due to inflation, maintaining its real value over time.
-
-### **4. Adjusted Allowance Using COLA**
-The second adjustment method incorporates a Cost of Living Adjustment (COLA) rate:
-1. **COLA Rate Calculation**:
-   - The COLA rate is capped at a maximum of 5% annually and is calculated as:
+#### **Methodology**
+- Compute annual inflation rates:
   
-     
-     $$
-     \text{COLA Rate} = \min(\text{Inflation Rate} \times 0.8, 0.05)
-     $$
-     
-   - This means that only 80% of the inflation rate is considered, with an upper limit of 5%.
+  $$
+  \text{Inflation Rate} = \frac{\text{CPI}_{\text{current}} - \text{CPI}_{\text{previous}}}{\text{CPI}_{\text{previous}}}
+  $$
   
-2. **Formula**:
-   - The adjusted meal allowance using COLA is computed as:
-     
-     $$
-     \text{Adjusted Allowance (COLA)} = \text{Base Allowance} \times (1 + \text{COLA Rate})
-     $$
+- Adjust the meal allowance using:
+  - **CPI Method:** Directly applies the inflation rate.
+  - **COLA Method:** Caps annual increases at **5%** and adjusts using **80% of inflation**.
+- Compare CPI-adjusted and COLA-adjusted allowances for practical implementation.
 
-3. **Rationale**:
-   - This approach balances inflationary adjustments with budget constraints by limiting excessive increases in allowances.
-
-### **5. Combined Output**
-The final dataset (`allowance_data`) includes the following columns for each year:
-- `Year`: The corresponding year.
-- `CPI`: Consumer Price Index for the year.
-- `Inflation_Rate`: Annual inflation rate derived from CPI.
-- `COLA_Rate`: Adjusted COLA rate based on inflation.
-- `Adjusted_Allowance_CPI`: Adjusted allowance using full inflation rate.
-- `Adjusted_Allowance_COLA`: Adjusted allowance using capped COLA rate.
-
-4. **Predictive Model (Option 3):**
+### **4. Predictive Meal Price Model (Option 3)**
+This approach forecasts future base meal prices using a linear regression model.
 
 ```mermaid
 flowchart TD
@@ -363,56 +238,96 @@ flowchart TD
     style Processing fill:#fff3e0,stroke:#e65100,color:#000000
     style Prediction fill:#f3e5f5,stroke:#4a148c,color:#000000
     style Output fill:#e8f5e9,stroke:#1b5e20,color:#000000
-
 ```
 
-- Develop a linear regression model to forecast future base meal prices.
-- Evaluate the model's performance using R-squared and statistical significance tests.
-- Visualize the historical and forecasted meal prices.
+#### **Methodology**
+- Fit a linear regression model:
+  
+  $$
+  \text{Base Meal Price} = β₀ + β₁ \times \text{Year}
+  $$
+  
+- Use historical meal prices (2018-2022) to predict future costs.
+- Evaluate model performance using **R-squared** and statistical tests.
+- Generate **forecasted meal prices** for 2023-2024.
 
-6. **Data Visualization and Interpretation:**
-    - Create visualizations using R and Jupyter Lab to present the results.
-    - Interpret the findings and provide actionable recommendations.
+### **5. Data Visualization & Interpretation**
+- Present results through **interactive plots and dashboards** in R and Jupyter Lab.
+- Compare different methodologies and their impact on meal allowance recommendations.
+- Provide **actionable insights** for MotorPH’s decision-making.
 
 ## **Findings and Interpretation**
 
-- **Base Meal Price Model (Option 1):**
-    - The analysis of historical food price data from 2019 to 2022 revealed a consistent upward trend in the calculated base meal price.
-    - The base meal price for 2019 was calculated to be X PHP, increasing to Y PHP in 2020, Z PHP in 2021, and reaching 78.09 PHP in 2022.
-    - A scaling factor of 3.8 was applied to account for restaurant markups and overhead costs, resulting in a recommended daily meal allowance of 300 PHP.
-    - The raw base meal price was calculated using the following weights: protein_weight = 175 grams, carb_weight = 250 grams, veg_weight = 100 grams, fruit_weight = 150 grams, oils_and_condiments_weight = 10 grams.
+### **Summary of Key Figures**
+| Year  | Base Meal Price (PHP) | CPI-Adjusted Allowance (PHP) | COLA-Adjusted Allowance (PHP) |
+|-------|------------------------|------------------------------|-------------------------------|
+| 2019  | 0.00 (Imputed)         | 261.06                       | 258.85                        |
+| 2020  | 60.67                  | 257.39                       | 255.91                        |
+| 2021  | 64.25                  | 259.33                       | 257.46                        |
+| 2022  | 66.71                  | 262.45                       | 259.96                        |
 
-- **Inflation-Adjusted Meal Allowance (Option 2):**
-    - [Using CPI data from the Philippine Statistics Authority (PSA)](https://psa.gov.ph/price-indices/seasonally-adjusted-cpi), the following inflation rates were calculated:
-        - 2019: 4.42%
-        - 2020: 2.96%
-        - 2021: 3.73%
-        - 2022: 4.98%
-    - Applying these rates to a base allowance of 300 PHP resulted in the following adjusted allowances:
-        - 2019: 313.27 PHP
-        - 2020: 308.87 PHP
-        - 2021: 311.20 PHP
-        - 2022: 314.94 PHP
-    - Implementing a proxy COLA (80% of CPI with a 5% cap) resulted in the following adjusted allowances:
-        - 2019: 310.62 PHP
-        - 2020: 307.09 PHP
-        - 2021: 308.96 PHP
-        - 2022: 311.96 PHP
-    - The differences between the CPI-adjusted and COLA-adjusted values were highlighted, emphasizing the more conservative approach of the COLA implementation.
+### **1. Base Meal Price Model (Option 1)**
+| Year  | Base Meal Price (PHP) |
+|-------|------------------------|
+| 2019  | 0.00 (Imputed)         |
+| 2020  | 60.67                  |
+| 2021  | 64.25                  |
+| 2022  | 66.71                  |
 
-- **Predictive Model (Option 3):**
-    - A linear regression model (Base_Meal_Price ~ Year) was used to forecast future base meal prices.
-    - The model's summary showed:
-        - R-squared: 0.8607
-        - Adjusted R-squared: 0.791
-        - Coefficient for Year: 6.487
-        - P-value for Year: 0.0723
-    - The model predicted an average annual increase of 6.487 PHP in the base meal price.
-    - Forecasted base meal prices for 2023 and 2024 were projected to be X PHP and Y PHP, respectively.
-    - The model was a reasonable representation of the data's trend, despite limitations indicated by the p-value exceeding 0.05.
-    - The residual standard error was 4.127 on 2 degrees of freedom.
-    - The F-statistic was 12.36 on 1 and 2 DF, p-value: 0.07227.
+- The historical food price data from 2019-2022 shows a **consistent upward trend**.
+- A **scaling factor of 3.8** was applied to account for restaurant markups, resulting in a **recommended daily meal allowance of 250 PHP**.
 
-## **Conclusion**
+### **2. Inflation-Adjusted Meal Allowance (Option 2)**
+| Year  | CPI (%) | CPI-Adjusted Allowance (PHP) | COLA-Adjusted Allowance (PHP) |
+|-------|--------|------------------------------|-------------------------------|
+| 2019  | 4.42   | 261.06                        | 258.85                        |
+| 2020  | 2.96   | 257.39                        | 255.91                        |
+| 2021  | 3.73   | 259.33                        | 257.46                        |
+| 2022  | 4.98   | 262.45                        | 259.96                        |
 
-This project successfully developed data-driven recommendations for optimizing MotorPH's employee meal allowance. The three models presented offer MotorPH a comprehensive understanding of meal cost trends, the impact of inflation, and future meal cost forecasts. The findings suggest that MotorPH should consider adopting an inflation-adjusted allowance model while utilizing the predictive model for proactive budgeting. Further research could explore more advanced predictive models and regional variations in meal costs.
+- CPI data from the **Philippine Statistics Authority (PSA)** was used to adjust the base 250 PHP allowance.
+- A **Cost of Living Adjustment (COLA)** was implemented using **80% of CPI with a 5% cap**, providing a **more conservative estimate**.
+- The COLA-adjusted figures **moderate inflation’s impact** on employee allowances.
+
+### **3. Predictive Model (Option 3)**
+| Metric                     | Value  |
+|----------------------------|--------|
+| R-squared                 | 0.8607 |
+| Adjusted R-squared        | 0.791  |
+| Annual Increase Estimate  | 6.487  |
+| P-value                   | 0.0723 |
+
+- A **linear regression model** (Base_Meal_Price ~ Year) was used to forecast future prices.
+- The model predicts an **average annual increase of 6.49 PHP**.
+- The **R-squared value (86.07%)** suggests a strong model fit, but the **p-value (0.0723)** indicates **marginal statistical significance**.
+- Due to the **small sample size**, results should be interpreted **with caution**.
+
+### **4. Overall Interpretation and Recommendations**
+
+#### **Key Takeaways:**
+- The **upward trend in meal prices** supports the need for **regular allowance adjustments**.  
+- CPI and COLA adjustments offer **flexibility** in managing employee meal benefits.  
+- The predictive model, while **informative**, has **limitations due to sample size**.  
+- The **250 PHP meal allowance** is **within the tax-exempt threshold (800 PHP for de minimis benefits)**, ensuring **regulatory compliance**.  
+- The **2019 imputed value (0 PHP)** must be considered when interpreting predictive results.  
+
+### **Final Recommendation**
+MotorPH can **adopt a hybrid approach**, using CPI and COLA adjustments for **short-term planning** while incorporating predictive modeling for **future projections and budget planning**.
+
+
+## **Conclusion**  
+
+This project has developed a **data-driven, adaptable framework** for MotorPH’s staff meal allowances, ensuring that allocations remain **fair, financially prudent, and responsive to economic conditions** in the Philippines.  
+
+- By analyzing **historical food price data**, we established a **realistic base meal price**, reflecting actual commodity costs and nutritional requirements.  
+- Integrating **Consumer Price Index (CPI) and Cost of Living Adjustment (COLA)** methodologies enabled **flexible, inflation-responsive adjustments** to meal allowances.  
+- A **predictive regression model** provided **forward-looking insights**, allowing MotorPH to **anticipate future cost increases** and proactively budget for employee meal benefits.  
+- **Data visualizations** translated complex analyses into **actionable insights**, supporting informed decision-making.  
+
+### **Key Business Impact**  
+- Ensures **meal allowances remain fair and competitive** amid rising costs.  
+- Provides **flexibility** with **CPI vs. COLA adjustments** to balance employee welfare and budget constraints.  
+- Supports **long-term planning** through **predictive modeling**.  
+- Enhances **compliance** by staying within tax-exempt benefit limits.  
+
+By combining **statistical rigor with economic insights**, this project equips MotorPH with a **sustainable, scalable solution** for meal allowance management. The framework not only enhances **employee well-being** but also reinforces **financial stability**, ensuring **adaptability in an evolving economic landscape**.  
