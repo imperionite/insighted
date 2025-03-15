@@ -170,7 +170,7 @@ dependencies:
   - pyobjc-core=11.0
   - pyobjc-framework-cocoa=11.0
   - pysocks=1.7.1
-  - python=3.13.2
+  - python=3.10
   - python-dateutil=2.9.0post0
   - python-fastjsonschema=2.21.1
   - python-json-logger=3.2.1
