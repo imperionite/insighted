@@ -294,9 +294,8 @@ $$ \text{Base Meal Price} = \beta_0 + \beta_1 \times \text{Year} $$
 - The **R-squared value (86.07%)** suggests a strong model fit, but the **p-value (0.0723)** indicates **marginal statistical significance**.
 - Due to the **small sample size**, results should be interpreted **with caution**.
 
-### **Interpretation and Recommendations**
+### **Interpretation**
 
-#### **Key Takeaways:**
 - The **upward trend in meal prices** supports the need for **regular allowance adjustments**.  
 - CPI and COLA adjustments offer **flexibility** in managing employee meal benefits.  
 - The predictive model, while **informative**, has **limitations due to sample size**.  
@@ -304,15 +303,81 @@ $$ \text{Base Meal Price} = \beta_0 + \beta_1 \times \text{Year} $$
     - According to Kalibrr (2023)](https://neo-blog.kalibrr.com/blog/de-minimis-per-diem-service-charges-etc-little-known-employee-benefits-in-the-philippines) and [Grant Thornton (2023)](https://www.grantthornton.com.ph/insights/articles-and-updates1/lets-talk-tax/better-perks-for-happier-employees-non-taxability-of-employee-de-minimis-benefits/), meal allowances are classified as de minimis benefits in the Philippines and are non-taxable up to the prescribed threshold. While [Kalibrr (2023)](https://neo-blog.kalibrr.com/blog/de-minimis-per-diem-service-charges-etc-little-known-employee-benefits-in-the-philippines) discusses this primarily for the government sector, the principles apply to private companies as well. [Grant Thornton (2023)](https://www.grantthornton.com.ph/insights/articles-and-updates1/lets-talk-tax/better-perks-for-happier-employees-non-taxability-of-employee-de-minimis-benefits/) confirms that meal allowances up to **PHP 800 per day are tax-exempt**, and our recommended **PHP 250** daily allowance complies with these regulations, ensuring fairness for employees.
 - The **2019 imputed value (0 PHP)** must be considered when interpreting predictive results.  
 
-### **Final Recommendation**
-MotorPH can **adopt a hybrid approach**, using CPI and COLA adjustments for **short-term planning** while incorporating predictive modeling for **future projections and budget planning**.
-
 
 ### **Supplementary Context: Budgetary Analysis**
 
 This analysis provides a supplementary contextual view of MotorPH's potential meal allowance budget, based on their existing allowance practices (rice, phone, clothing).
 
 It uses these existing allowances as a proxy to determine a perceived initial meal allowance, reflecting MotorPH's current spending patterns and comfort level with employee benefits. Using statistical analysis, we estimate an appropriate meal allowance while considering employees' existing benefits and salary structures.
+
+```mermaid
+flowchart TD
+    subgraph Input["Input Data"]
+        E[("Employees Dataset")]
+        F[("Food Prices Dataset")]
+    end
+
+    subgraph Analysis["Allowance Analysis"]
+        A1["Calculate Allowance Summary
+        • Rice
+        • Phone
+        • Clothing"]
+        A2["Calculate Total Allowance
+        Rice + Phone + Clothing"]
+        A3["Calculate Allowance Percentage
+        Total / Basic Salary"]
+    end
+
+    subgraph Estimation["Meal Allowance Estimation"]
+        E1["Calculate Q1 Percentage
+        (Conservative Estimate)"]
+        E2["Calculate Estimated Meal Allowance
+        Basic Salary × Q1 Percentage"]
+        E3["Calculate Daily Allowance
+        ÷ 26 Working Days"]
+    end
+
+    subgraph Budget["Budget Analysis"]
+        B1["Calculate Total Budget
+        Sum of All Allowances"]
+        B2["Calculate Mode Allowance"]
+        B3["Calculate Median Allowance"]
+        B4["Set Fixed Daily Allowance
+        (Rounded Median)"]
+    end
+
+    subgraph Validation["Validation"]
+        V1["Compare with Forecast
+        (PHP 250)"]
+        V2["Generate Reports"]
+    end
+
+    E --> A1
+    F --> V1
+    A1 --> A2
+    A2 --> A3
+    A3 --> E1
+    E1 --> E2
+    E2 --> E3
+    E3 --> B1
+    B1 --> B2
+    B2 --> B3
+    B3 --> B4
+    B4 --> V1
+    V1 --> V2
+
+    classDef input fill:#e1f5fe,stroke:#01579b,color:#000000
+    classDef analysis fill:#fff3e0,stroke:#e65100,color:#000000
+    classDef estimation fill:#f3e5f5,stroke:#4a148c,color:#000000
+    classDef budget fill:#e8f5e9,stroke:#1b5e20,color:#000000
+    classDef validation fill:#fff8e1,stroke:#ff6f00,color:#000000
+    
+    class E,F input
+    class A1,A2,A3 analysis
+    class E1,E2,E3 estimation
+    class B1,B2,B3,B4 budget
+    class V1,V2 validation
+```
 
 ## Methodology
 The approach consists of the following key steps:
