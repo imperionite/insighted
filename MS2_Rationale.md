@@ -304,16 +304,19 @@ flowchart TD
 - The **upward trend in meal prices** supports the need for **regular allowance adjustments**.  
 - CPI and COLA adjustments offer **flexibility** in managing employee meal benefits.  
 - The predictive model, while **informative**, has **limitations due to sample size**.  
-- The **250 PHP meal allowance** is **within the tax-exempt threshold (800 PHP for de minimis benefits)**, ensuring **regulatory compliance**.  
+- The **250 PHP** meal allowance is within the **tax-exempt threshold of 800 PHP for de minimis benefits**, ensuring regulatory compliance.
+    - According to Kalibrr (2023)](https://neo-blog.kalibrr.com/blog/de-minimis-per-diem-service-charges-etc-little-known-employee-benefits-in-the-philippines) and [Grant Thornton (2023)](https://www.grantthornton.com.ph/insights/articles-and-updates1/lets-talk-tax/better-perks-for-happier-employees-non-taxability-of-employee-de-minimis-benefits/), meal allowances are classified as de minimis benefits in the Philippines and are non-taxable up to the prescribed threshold. While [Kalibrr (2023)](https://neo-blog.kalibrr.com/blog/de-minimis-per-diem-service-charges-etc-little-known-employee-benefits-in-the-philippines) discusses this primarily for the government sector, the principles apply to private companies as well. [Grant Thornton (2023)](https://www.grantthornton.com.ph/insights/articles-and-updates1/lets-talk-tax/better-perks-for-happier-employees-non-taxability-of-employee-de-minimis-benefits/) confirms that meal allowances up to **PHP 800 per day are tax-exempt**, and our recommended **PHP 250** daily allowance complies with these regulations, ensuring fairness for employees.
 - The **2019 imputed value (0 PHP)** must be considered when interpreting predictive results.  
 
 ### **Final Recommendation**
 MotorPH can **adopt a hybrid approach**, using CPI and COLA adjustments for **short-term planning** while incorporating predictive modeling for **future projections and budget planning**.
 
 
-### **Determination of Perceived Budget Allocation for Staff Meal Allowance**
+### **Supplementary Context: Budgetary Analysis**
 
-This analysis aims to determine a perceived budget allocation for staff meal allowances at MotorPH based on existing employee allowances. Using statistical analysis, we estimate an appropriate meal allowance while considering employees' existing benefits and salary structures.
+This analysis provides a supplementary contextual view of MotorPH's potential meal allowance budget, based on their existing allowance practices (rice, phone, clothing).
+
+It uses these existing allowances as a proxy to determine a perceived initial meal allowance, reflecting MotorPH's current spending patterns and comfort level with employee benefits. Using statistical analysis, we estimate an appropriate meal allowance while considering employees' existing benefits and salary structures.
 
 ## Methodology
 The approach consists of the following key steps:
@@ -352,8 +355,13 @@ The approach consists of the following key steps:
 - The **Recommended Fixed Daily Allowance** is set as the rounded median daily meal allowance for practical implementation.
 
 ### 5. Comparison and Adjustment
-- The **Recommended Fixed Daily Allowance** is compared against a forecasted meal price (e.g., PHP 250 per day).
-- If the recommended amount is lower than the forecasted meal price, adjustments may be necessary.
+
+| Feature/Metric | Option 1: Base Meal Price | Option 2: Inflation-Adjusted | Option 3: Predictive Model | Budgetary Analysis |
+| :------------- | :----------------------- | :--------------------------- | :------------------------- | :-------------------------- |
+| **Description** | Raw ingredient cost + markup | Inflation-adjusted base price | Forecasted future meal costs | Budget based on existing allowances |
+| **Pros** | Direct cost link, simple, transparent | Accounts for inflation, uses official data, flexible | Proactive planning, forward-looking, statistical | Company-specific, realistic, comparative |
+| **Cons** | Ignores inflation, scaling factor debatable, ignores company budget. | May not reflect individual needs, COLA proxy, ignores company budget. | Uncertainty, relies on past data, small sample size, ignores company budget. | Proxy limitations, ignores inflation, ignores employee meal needs. |
+| **Target** | Baseline allowance | Maintain purchasing power | Forecast future costs | Budgetary context |
 
 ## Key Findings
 - The estimated **total budget** for meal allowances is calculated.
@@ -362,17 +370,24 @@ The approach consists of the following key steps:
 
 ## **Conclusion**  
 
-This project has developed a **data-driven, adaptable framework** for MotorPH’s staff meal allowances, ensuring that allocations remain **fair, financially prudent, and responsive to economic conditions** in the Philippines.  
+This project has developed a **data-driven, adaptable framework** for MotorPH’s staff meal allowances, ensuring that allocations remain **fair, financially prudent, and responsive to economic conditions** in the Philippines.
 
-- By analyzing **historical food price data**, we established a **realistic base meal price**, reflecting actual commodity costs and nutritional requirements.  
-- Integrating **Consumer Price Index (CPI) and Cost of Living Adjustment (COLA)** methodologies enabled **flexible, inflation-responsive adjustments** to meal allowances.  
-- A **predictive regression model** provided **forward-looking insights**, allowing MotorPH to **anticipate future cost increases** and proactively budget for employee meal benefits.  
-- **Data visualizations** translated complex analyses into **actionable insights**, supporting informed decision-making.  
+- By analyzing **historical food price data**, we established a **realistic base meal price**, reflecting actual commodity costs and nutritional requirements.
+- Integrating **Consumer Price Index (CPI) and Cost of Living Adjustment (COLA)** methodologies enabled **flexible, inflation-responsive adjustments** to meal allowances.
+- A **predictive regression model** provided **forward-looking insights**, allowing MotorPH to **anticipate future cost increases** and proactively budget for employee meal benefits.
+- **Data visualizations** translated complex analyses into **actionable insights**, supporting informed decision-making.
 
 ### **Key Business Impact**  
-- Ensures **meal allowances remain fair and competitive** amid rising costs.  
-- Provides **flexibility** with **CPI vs. COLA adjustments** to balance employee welfare and budget constraints.  
-- Supports **long-term planning** through **predictive modeling**.  
-- Enhances **compliance** by staying within tax-exempt benefit limits.  
+- Ensures **meal allowances remain fair and competitive** amid rising costs.
+- Provides **flexibility** with **CPI vs. COLA adjustments** to balance employee welfare and budget constraints.
+- Supports **long-term planning** through **predictive modeling**.
+- Enhances **compliance** by staying within tax-exempt benefit limits.
 
-By combining **statistical rigor with economic insights**, this project equips MotorPH with a **sustainable, scalable solution** for meal allowance management. The framework not only enhances **employee well-being** but also reinforces **financial stability**, ensuring **adaptability in an evolving economic landscape**.  
+### **Comprehensive Analysis of Meal Allowances**
+- **Rice Subsidy**: The consistent rice subsidy of ₱1,500 ensures equal distribution across all employees.
+- **Phone and Clothing Allowances**: These allowances show variability, with higher mean values indicating that some employees receive higher amounts, especially in phone and clothing allowances. This suggests that allowances are adjusted based on specific employee roles or needs.
+- **Allowance Percentages**: Meal allowances, ranging from 5% to 10.10% of basic salaries, indicate that the allowances are a significant portion of employee wages. The Q1 percentage (6.97%) was used in this analysis to provide a conservative estimate of the total meal allowance budget, amounting to ₱88,852.34.
+- **Daily Allowance vs. Forecast**: The recommended fixed daily allowance of ₱67, based on the median value, is notably lower than the forecasted daily meal price of ₱250, suggesting a potential budget gap. While it aligns with tax-exempt thresholds, further adjustment may be necessary to meet actual meal costs.
+- **Salary Impact**: Employees with higher basic salaries receive higher estimated meal allowances, demonstrating a progressive allocation model, though adjustments might be needed to ensure fairness for all.
+
+By combining **statistical rigor with economic insights**, this project equips MotorPH with a **sustainable, scalable solution** for meal allowance management. The framework not only enhances **employee well-being** but also reinforces **financial stability**, ensuring **adaptability in an evolving economic landscape**.
