@@ -1,4 +1,4 @@
-# **Meal Allowance Optimization: Price, Inflation and Prediction**
+# **Meal Allowance Optimization: Price, Inflation and Prediction - Summary & Documentation**
 
 ## **Abstract**
 
