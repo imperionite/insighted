@@ -189,10 +189,7 @@ flowchart TD
 #### **Methodology**
 - Compute annual inflation rates:
 
-$$
-    \text{Inflation Rate} = \frac{\text{CPI\_current} - \text{CPI\_previous}}{\text{CPI\_previous}}
-$$
-
+$$ \text{Inflation Rate} = \frac{\text{CPI\_current} - \text{CPI\_previous}}{\text{CPI\_previous}} $$
   
 - Adjust the meal allowance using:
   - **CPI Method:** Directly applies the inflation rate.
@@ -244,7 +241,7 @@ flowchart TD
 #### **Methodology**
 - Fit a linear regression model:
 
-  $$ \text{Base Meal Price} = \beta_0 + \beta_1 \times \text{Year} $$
+$$ \text{Base Meal Price} = \beta_0 + \beta_1 \times \text{Year} $$
 
 - Use historical meal prices (2018-2022) to predict future costs.
 - Evaluate model performance using **R-squared** and statistical tests.
