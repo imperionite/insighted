@@ -15,6 +15,7 @@ The primary objectives of this project are as follows:
 - To develop a base meal price model using historical food price data from MotorPH's data repository.
 - To implement an inflation-adjusted meal allowance model using the Consumer Price Index (CPI) and a proxy Cost of Living Adjustment (COLA).
 - To create a predictive model to forecast future meal costs, enabling proactive budgeting.
+- To provide supplementary contextual analysis of MotorPH's potential meal allowance budget based on existing allowance practices.
 - To provide data-driven recommendations for optimizing MotorPH's employee meal allowance.
 
 ## **Scope and Delimitations**
