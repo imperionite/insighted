@@ -190,7 +190,7 @@ flowchart TD
 - Compute annual inflation rates:
 
 $$ \text{Inflation Rate} = \frac{\text{CPI\_current} - \text{CPI\_previous}}{\text{CPI\_previous}} $$
-  
+
 - Adjust the meal allowance using:
   - **CPI Method:** Directly applies the inflation rate.
   - **COLA Method:** Caps annual increases at **5%** and adjusts using **80% of inflation**.
