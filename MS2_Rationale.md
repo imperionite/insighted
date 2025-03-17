@@ -277,6 +277,8 @@ $$ \text{Base Meal Price} = \beta_0 + \beta_1 \times \text{Year} $$
 - Evaluate model performance using **R-squared** and statistical tests.
 - Generate **forecasted meal prices** for 2023-2024.
 
+---
+
 ## **Findings and Interpretation**
 
 ### **Summary of Key Figures**
